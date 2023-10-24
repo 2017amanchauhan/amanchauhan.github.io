@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+}
+:root{
+	--a:#ffffff;
+}
+.navlogo{
+	width:150px;
+}
+#header{
+	height:500px;
+	background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../image/bg-heroheader.jpg) fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul li a{
+	color:var(--a);
+	padding:0 20px;
+}

@@ -1,0 +1,320 @@
+*{
+	box-sizing:border-box;
+}
+html{
+	 scroll-behavior: smooth;
+}
+body{
+	background:white;
+}
+/*=======================This is a allcolor box=======================*/
+:root{
+	--navbg:#97d5d0;
+	--a:#00004f;
+	--importance:#f04222;
+	--readmore:#ef4222;
+}
+/* -------This is a navbar start---------- */
+.whitelogo{
+	width:150px;
+}
+.texthome{
+	font-size:22px;
+}
+a{
+	font-size:18px;
+	color:var(--a);
+	padding:0 20px;
+}
+a:hover{
+	text-decoration:none;
+	color:#a92535;
+}
+.navbg{
+	background:var(--navbg);
+}
+.fa-bars{
+	color:var(--a);
+	font-size:2rem;
+	
+}
+/* ----navbar end-------*/
+/* -------This is a header start---------- */
+#header{
+	background:var(--navbg);
+	height:auto;
+}
+.winner{
+	font-size:24px;
+	color:var(--a);
+}
+.weneed{
+	font-size:60px;
+	font-weight:bold;
+}
+/* -------This is a aboutus start---------- */
+#aboutus{
+	background:white;
+	height:auto;
+}
+.importance{
+	color:var(--importance);
+	letter-spacing:3px;
+	font-size:16px;
+}
+.human{
+	font-size:38px;
+	font-weight:bold;
+}
+.lorem{
+	font-size:16px;
+	color:var(--a);
+	padding:20px 0 0 0;
+	line-height:26px;
+}
+.readmore{
+	padding:10px 50px;
+	background:var(--readmore);
+	font-size:18px;
+	color:#fff;
+	transition:ease-out 0.8s;
+	position:relative;
+	z-index:2;
+	
+}
+.readmore:hover{
+	color:white;
+}
+.readmore::before{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:50%;
+	opacity:1;
+	background:var(--a);
+	transition:ease-out 0.5s;
+	content:"";
+	z-index:-1;
+	
+}
+.readmore:hover::before{
+	transition:ease-out 0.3s;
+	top:0;
+	bottom:0;
+	border:3px solid white;
+
+}
+/* -------This is a aboutus1 start---------- */
+#aboutus1{
+	background:var(--navbg);
+	height:auto;
+}
+.kg{
+	font-size:40px;
+	color:var(--a);
+	
+}
+.add{
+	color:var(--readmore);
+	font-weight:bold;
+}
+.food{
+	color:var(--a);
+	font-size:18px;
+}
+/* -------This is a service start---------- */
+#service{
+	background:white;
+	height:auto;
+}
+/* -------This is a gallery start---------- */
+#gallery{
+	background:white;
+	height:auto;
+}
+.imggirl{
+	width:100%;
+}
+.amet{
+	color:var(--a);
+}
+.installatio{
+	color:var(--a);
+	font-size:26px;
+}
+/* -------This is a blog start---------- */
+#blog{
+	background:var(--navbg);
+	height:auto;
+}
+.dec{
+	color:var(--readmore);
+	font-size:32px;
+}
+.dec1{
+	color:var(--readmore);
+	font-size:20px;
+}
+.dolor{
+	font-size:16px;
+	color:var(--a);
+}
+.readmore1{
+	padding:10px 40px;
+	background:var(--readmore);
+	font-size:16px;
+	color:#fff;
+	transition:ease-out 0.8s;
+	position:relative;
+	z-index:2;
+	
+}
+.readmore1:hover{
+	color:white;
+}
+.readmore1::before{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:50%;
+	opacity:1;
+	background:var(--aboutus);
+	transition:ease-out 0.5s;
+	content:"";
+	z-index:-1;
+	
+}
+.readmore1:hover::before{
+	transition:ease-out 0.3s;
+	top:0;
+	bottom:0;
+	border:3px solid white;
+
+
+}
+.one{
+	height:1px;
+	background:var(--a);
+}
+.readmore2{
+	padding:10px 60px;
+	background:none;
+	font-size:16px;
+	color:var(--readmore);
+	border:1px solid var(--readmore);
+	
+	position:relative;
+	z-index:2;
+	
+}
+.readmore2:hover{
+	color:var(--a);
+	border:0px solid var(--a);
+	
+}
+.readmore2::before{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:50%;
+	opacity:1;
+	background:var(--aboutus);
+	transition:ease-out 0.5s;
+	content:"";
+	z-index:-1;
+
+	
+}
+.readmore2:hover::before{
+	transition:ease-out 0.3s;
+	top:0;
+	bottom:0;
+	border:2px solid var(--a);
+	
+
+
+
+}
+.storyimg{
+	width:100%;
+}
+/* -------This is a footer start---------- */
+#footer{
+	background:white;
+	height:auto;
+}
+.box1{
+	background:var(--navbg);
+}
+.cardbox{
+	background:var(--navbg);
+}
+.formimg{
+	width:50%;
+}
+.submit1{
+	width:100%;
+	background:var(--readmore);
+	color:white;
+}
+.circle{
+	background:var(--navbg);
+	width:100%;
+	border-radius:50%;
+}
+/* -------This is a footer1 start---------- */
+#footer1{
+	background:white;
+	height:auto;
+}
+/* -------This is a footer2 start---------- */
+#footer2{
+	background:var(--navbg);
+	height:auto;
+}
+.socialicon{
+	font-size:2rem;
+	color:var(--a);
+	margin:10px 0 0 0;
+}
+.about{
+	font-size:20px;
+	font-weight:bold;
+	color:var(--a);
+}
+.sit{
+	font-size:15px;
+	padding:10px 0 0 0;
+	line-height:26px;
+	color:var(--a);
+}
+.sit1{
+	font-size:15px;
+	padding:60px 0 0 0;
+	color:var(--a);
+}
+.unsubscribe{
+	font-size:14px;
+	cursor:pointer;
+	padding:10px 0 0 0;
+	color:var(--a);
+	
+}
+/* -------This is a footer3 start---------- */
+#footer3{
+	background:white;
+	height:auto;
+}
+.bee1{
+	width:40px;
+}
+.bee2{
+	color:#0068a5;
+	padding:5px 0 0 0;
+}
+.imgaman{
+	width:200px;
+}

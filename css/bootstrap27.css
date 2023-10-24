@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+body{
+	background:lightblue;
+}
+.accordion{
+	max-width:600px;
+}
+.accordion .contentBx{
+	margin:20px ;
+}
+.accordion .contentBx .label{
+	position:relative;
+	background:#2694af;
+	padding:10px;
+	font-weight:bold;
+	color:#ffff;
+	cursor:pointer;
+}
+.accordion .contentBx .label::before{
+	content:"+";
+	position:absolute;
+	top:45%;
+	left:90%;
+	transform:translate(-50%,-50%);
+	font-size:1.8rem;
+}
+.accordion .contentBx.active .label::before{
+	content:"-";
+}
+.content{
+	background:white;
+	height:0px;
+	overflow:hidden;
+	overflow-y:auto;
+	transition:0.5s;
+}
+.active .content{
+	height:100px;
+	padding:10px;
+	text-align:justify;
+	
+}	

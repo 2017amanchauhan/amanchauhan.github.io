@@ -1,0 +1,90 @@
+body{
+	background:red;
+}
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+#nav{
+	width:100%;
+	height:auto;
+	background:url(../image/weddingaman.jpg) center;
+	background-size:cover;
+}
+h1{
+	text-align:center;
+	font-family:calibri;
+	font-size:30px;
+}
+.container{
+	flex-basis:1170px;
+	height:auto;
+	background:none;
+	margin:auto;
+	
+	display:flex;
+	justify-content:space-around;
+	
+	flex-direction:row;
+	
+}
+
+.boximage{
+	flex-basis:23%;
+	
+	background:white;
+	margin:20px 0 20px 0;
+	
+}
+
+.imgicon{
+	margin:0 0 0 70px;
+}
+.lorem{
+	font-size:30px;
+	text-align:center;
+	font-family:calibri;
+}
+.long{
+	font-size:19px;
+	text-align:center;
+	padding:20px 0 0 0;
+	font-family:calibri;
+}
+.readmore{
+	width:150px;
+	height:40px;
+	background:red;
+	line-height:40px;
+	text-align:center;
+	font-family:calibri;
+	font-size:19px;
+	margin:20px 0 20px 60px;
+	border-radius:8px;
+}
+.boximage:hover{
+	background:blue;
+	color:white;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+	.container{
+		width:100%;
+		flex-direction:column;
+
+	}
+	.imgicon{
+	margin:0 0 0 150px;
+}
+.readmore{
+	margin:20px 0 20px 150px;
+}
+		
+	
+	
+}
+
+
+
+

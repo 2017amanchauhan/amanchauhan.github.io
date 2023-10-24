@@ -1,0 +1,39 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	background:black;
+	color:white;
+}
+.timerbox{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+	width:100%;
+}
+#timer{
+	display:flex;
+	width:500px;
+	margin:0 auto;
+	margin-top:30px;
+}
+#timer div{
+	position:relative;
+	width:120px;
+	margin:0 5px;
+	padding:20px;
+	background:white;
+	color:black;
+	font-size:1.2em;
+	border-radius:5px;
+	-webkit-box-reflect:below 1px linear-gradient(transparent,transparent,#0004)
+}
+#timer div:last-child	{
+	
+	background:#e91e63;
+	color:white;
+	
+}

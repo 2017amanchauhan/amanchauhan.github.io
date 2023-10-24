@@ -1,0 +1,225 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	background:white;
+}
+html{
+	scroll-behavior:smooth;
+}
+:root{
+	--a:#f5f5f5;
+	--navbg:#3d8988;
+	--bar:#da9172;
+	--aboutus:#f4ded4;
+	--why:#235158;
+	--ipsum:#212436;
+	--service:#f5f5f5;
+}
+.kitchenlogo{
+	width:200px;
+}
+ul li a{
+	padding:0 20px;
+	color:var(--a);
+	font-size:18px;
+	line-height:42px;
+}
+.navbg{
+	background:var(--navbg);
+}
+.fa-bars{
+	font-size:2rem;
+	color:var(--bar);
+}
+#header{
+	background:var(--navbg);
+	height:auto;
+}
+.human{
+	color:var(--bar);
+	font-size:48px;
+	font-weight:bold;
+}
+.lorem{
+	color:var(--a);
+	font-size:18px;
+	line-height:30px;
+	padding:20px 0 0 0;
+}
+.getbttn{
+	color:var(--a);
+	background:var(--bar);
+	border-radius:0px;
+	margin:30px 0 0 0;
+}
+.girlimg{
+	width:80%;
+}
+#aboutus{
+	background:var(--aboutus);
+	height:auto;
+}
+.why{
+	font-size:42px;
+	font-weight:bold;
+	color:var(--why);
+	padding:80px 0 0 0;
+}
+.ipsum{
+	color:var(--ipsum);
+	font-size:18px;
+	line-height:30px;
+	padding:20px 0 0 0;
+}
+.getbttn1{
+	color:var(--a);
+	background:var(--why);
+	border-radius:0px;
+	margin:30px 0 0 0;
+}
+.fundratext{
+	color:var(--ipsum);
+	font-size:18px;
+	letter-spacing:2px;
+}
+.how{
+	color:var(--why);
+	font-size:42px;
+	font-weight:bold;
+}
+.donateimg{
+	width:200px;
+}
+.getbttncard{
+	color:var(--a);
+	background:var(--bar);
+	border-radius:0px;
+}
+#blog{
+	background:(--a);
+	height:auto;
+}
+.fivek{
+	font-size:52px;
+	font-weight:bold;
+	color:var(--navbg);
+}
+.volunteers{
+	font-size:19px;
+	color:var(--ipsum);
+}
+#gallery{
+	background:var(--aboutus);
+	height:auto;
+}
+.seebttn{
+	width:100%;
+	color:var(--a);
+	background:var(--bar);
+	border-radius:0px;
+	font-size:19px;
+	margin:10px 0 0 0;
+	line-height:38px;
+}
+.jan{
+	color:var(--bar);
+	padding:10px 0 10px 0;
+	font-size:18px;
+}
+.meal{
+	font-size:27px;
+	font-weight:bold;
+	color:var(--why);
+}
+.dolor{
+	font-size:20px;
+	color:var(--ipsum);
+}
+.seebttn1{
+	width:100%;
+	color:var(--a);
+	background:var(--why);
+	border-radius:0px;
+	font-size:19px;
+	margin:10px 0 0 0;
+	line-height:38px;
+}
+.textbg{
+	background:var(--aboutus);
+}
+.quoteimg{
+	width:100px;
+	margin:0 0 30px 0;
+}
+.janedeotext{
+	color:var(--navbg);
+	padding:30px 0 0 0;
+	font-size:20px;
+	font-weight:bold;
+}
+.dolor1{
+	font-size:20px;
+	color:var(--ipsum);
+	text-align:justify;
+}
+.line{
+	background:var(--bar);
+}
+#service{
+	background:var(--service);
+	height:auto;
+}
+.join{
+	color:var(--why);
+	font-size:52px;
+	font-weight:bold;
+}
+#footer{
+	background:var(--aboutus);
+	height:auto;
+}
+.links{
+	font-weight:bold;
+	font-size:22px;
+}
+.privacy{
+	padding:15px 0 0 0;
+	color:var(--ipsum);
+	line-height:38px;
+}
+.socialicon{
+	color:var(--ipsum);
+	font-size:2rem;
+}
+.fa-twitter-square{
+	padding:0 0 0 2px;
+}
+.fa-linkedin-square{
+	padding:0 0 0 2px;
+}
+.fa-instagram{
+	padding:0 0 0 2px;
+}
+.input{
+	width:100%;
+	height:40px;
+}
+.input1{
+	width:100%;
+	height:40px;
+	background:var(--why);
+	margin:5px 0 0 0;
+}
+#footer1{
+	background:var(--a);
+	height:auto;
+}
+.bee{
+	width:40px;
+}
+.bee1{
+	color:var(--ipsum);
+}

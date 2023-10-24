@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-border;
+}
+body{
+	background:white;
+	font-family: 'Rajdhani', sans-serif;
+}
+:root{
+	--navbg:#f6f6fc;
+	--a:#131313;
+	--lorem:#393d47;
+	--followbttn:#5046c7;
+	--followtext:#ffffff;
+	--fromtext:#a9a9a9;
+	--service:#0f1221;
+	--support:#a59ee5;
+	--ipsum:#cdcdcd;
+	
+}
+.navbg{
+	background:var(--navbg);
+}
+.logoblack{
+	width:80px;
+}
+a{
+	font-size:20px;
+	padding:0 20px;
+	color:var(--a);
+	line-height:38px;
+}
+.fa-bars{
+	color:var(--a);
+	font-size:2rem;
+}
+#header{
+	background:var(--navbg);
+	height:auto;
+}
+.buildingtext{
+	color:var(--a);
+	font-size:42px;
+	font-weight:bold;
+}
+.lorem{
+	color:var(--lorem);
+	font-size:18px;
+}
+.followbttn{
+	background:var(--followbttn);
+	color:var(--followtext);
+}
+.feedbackimg{
+	width:100%;
+}
+#aboutus{
+	background:var(--followtext);
+	height:auto;
+}
+.ninetynine{
+	color:var(--a);
+	font-weight:bold;
+	font-size:42px;
+}
+.position{
+	color:var(--a);
+	font-size:18px;
+}
+.from{
+	color:var(--fromtext);
+	font-size:17px;
+	padding:5px 0 0 0;
+}
+#service{
+	background:var(--service);
+	height:auto;
+}
+.Support{
+	padding:140px 0 0 0;
+	color:var(--support);
+	font-size:19px;
+}
+.boom{
+	color:var(--followtext);
+	font-weight:bold;
+	font-size:42px;
+}
+.line{
+	width:200px;
+	height:2px;
+	background:var(--followbttn);
+}
+.ipsum{
+	font-size:18px;
+	color:var(--ipsum);
+	line-height:28px;
+	padding:10px 0 0 0;
+}
+.mainimg{
+	width:400px;
+}
+#gallery{
+	background:var(--followtext);
+	height:auto;
+}
+.Support1{
+	color:var(--support);
+	font-size:19px;
+}
+.youare{
+	
+	font-size:48px;
+	font-weight:bold;
+	color:var(--a);
+	line-height:52px;
+}
+.you{
+	color:var(--followbttn);
+}
+.lorem1{
+	padding:20px 0 0 0;
+	color:var(--lorem);
+	font-size:21px;
+}
+#blog{
+	background:var(--navbg);
+	height:auto;
+}
+.boom1{
+	color:var(--a);
+	font-weight:bold;
+	font-size:42px;
+}
+.ipsum1{
+	font-size:18px;
+	color:var(--lorem);
+	line-height:28px;
+	padding:10px 0 0 0;
+}
+#footer{
+	background:var(--service);
+	height:auto;
+}
+.ipad{
+	width:80%;
+}
+#footer1{
+	background:var(--followtext);
+	height:auto;
+}
+.amet{
+	padding:20px 0 0 0;
+	color:var(--a);
+	font-size:17px;
+}
+.links{
+	font-weight:bold;
+	font-size:20px;
+	color:var(--a);
+}
+.product{
+	padding:20px 0 0 0;
+	line-height:38px;
+	color:var(--a);
+}
+.fa-facebook-square{
+	font-size:2rem;
+}
+.fa-twitter-square{
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.fa-linkedin-square{
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.fa-instagram{
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.email{
+	padding:20px 0 0 0;
+}
+.input1{
+	width:100%;
+	height:40px;
+}
+.input2{
+	width:100%;
+	height:40px;
+	margin:10px 0 0 0;
+	background:var(--followbttn);
+	color:var(--followtext);
+}
+#footer2{
+	background:var(--followbttn);
+	height:auto;
+}
+.dil{
+	width:20px;
+}
+.love{
+	color:var(--followtext);
+	padding:0 0 0 10px;
+}
+#footer3{
+	background:var(--followtext);
+	height:auto;
+}
+.bee1{
+	width:40px;
+}
+.loveaman{
+	color:var(--a);
+	padding:0 0 0 10px;
+}

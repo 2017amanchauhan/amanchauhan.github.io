@@ -1,0 +1,699 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:calibri;
+}
+body{
+	background:green;
+}
+html{
+	scroll-behavior:smooth;
+}
+/*==========================root all color start=================================*/
+:root{
+	--navbar:#1b1a18;
+	--header:#e3e1d4;
+	--octoberfest:#a99867;
+	--selective:#393d47;
+	--headerbox:#a99867;
+	--aboutus:#191816;
+	--service:#ffffff;
+	--footer:#e2e0d3;
+}
+#navbar{
+	width:100%;
+	height:80px;
+	background:var(--navbar);
+}
+.container{
+	width:1170px;
+	height:auto;
+	margin:auto;
+	background:none;
+}
+.logoimg{
+	width:200px;
+	margin:10px 0 0 0;
+	float:left;
+}
+ul{
+	float:right;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	color:white;
+	line-height:80px;
+	padding:0 30px;
+	text-decoration:none;
+	font-size:19px;
+	display:block;
+}
+ul li a:hover{
+	background:var(--octoberfest);
+	color:var(--selective);
+}
+
+/*==================================toggle btn start==============================*/
+.toggle-area{
+	background:var(--navbar);
+	border-bottom:5px solid white;
+	padding:10px;
+	display:flex;
+	justify-content:center;
+	font-size:30px;
+	color:white;
+	
+	
+	
+	
+}
+
+#toggle{
+	display:none;
+}
+.toggle-area label{
+	height:45px;
+	width:50px;
+	border-radius:4px;
+	background-color:var(--navbar);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor:pointer;
+	
+	
+}
+.toggle-area{
+	display:none;
+}
+#header{
+	width:100%;
+	height:auto;
+	background:var(--header);
+}
+.headerbox1{
+	width:670px;
+	height:auto;
+	background:none;
+	margin:50px 0 50px 0;
+}
+.headerbox2{
+	width:490px;
+	height:auto;
+	background:none;
+	margin:50px 0 50px 10px;
+}
+.main{
+	display:flex;
+	justify-content:center;
+}
+.oktoberfest{
+	color:var(--octoberfest);
+	font-family:Agency FB;
+	font-size:20px;
+}
+.selective{
+	font-size:60px;
+	color:var(--selective);
+	padding:10px 0 0 0;
+	font-weight:bold;
+	font-family:Agency FB;
+}
+.headerlorem{
+	line-height:34px;
+	padding:20px 0 0 0;
+	font-family:Agency FB;
+	font-size:22px;
+	color:var(--selective);
+}
+.headerbox{
+	width:200px;
+	height:60px;
+	background:var(--headerbox);
+	line-height:60px;
+	text-align:center;
+	margin:50px 0 0 0;
+	font-size:22px;
+	border-radius:5px;
+	color:white;
+	font-family:Agency FB;
+	transition:ease-out 0.8s;
+	position:relative;
+	z-index:2;
+	
+}
+.headerbox::before{
+	position:absolute;
+	top:0;
+	left:50%;
+	right:50%;
+	bottom:0;
+	opacity:1;
+	background:var(--selective);
+	transition:ease-out 0.3s;
+	content:"";
+	z-index:-1;
+}
+.headerbox:hover::before{
+	transition:ease-out 0.3s;
+	left:0;
+	right:0;
+	
+
+
+}
+.beerimg{
+	width:490px;
+}
+#aboutus{
+	width:100%;
+	height:auto;
+	background:var(--aboutus);
+}
+.oktoberfest1{
+	color:var(--octoberfest);
+	font-family:Agency FB;
+	font-size:20px;
+	text-align:center;
+	padding:50px 0 0 0;
+}
+.selective1{
+	font-size:60px;
+	color:white;
+	padding:10px 0 0 0;
+	font-weight:bold;
+	font-family:Agency FB;
+	text-align:center;
+}
+.aboutusbox1{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 10px;
+	
+}
+.aboutusbox2{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 10px;
+}
+.aboutusbox3{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 10px;
+}
+.cirleimg{
+	margin:0 0 0 90px;
+}
+.oktoberfest2{
+	color:var(--octoberfest);
+	font-family:Agency FB;
+	font-size:20px;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.aboutlorem{
+	line-height:30px;
+	padding:20px 0 0 0;
+	font-family:Agency FB;
+	font-size:20px;
+	color:white;
+	text-align:center;
+}
+.aboutbox{
+	width:200px;
+	height:60px;
+	background:var(--headerbox);
+	line-height:60px;
+	text-align:center;
+	margin:20px 0 50px 95px;
+	font-size:22px;
+	font-family:Agency FB;
+	color:white;
+	transition:ease-out 0.8s;
+	position:relative;
+	z-index:2;
+	
+}
+.aboutbox:hover{
+	color:var(--selective);
+}
+.aboutbox::before{
+	position:absolute;
+	top:0;
+	left:50%;
+	right:50%;
+	bottom:0;
+	opacity:1;
+	background:white;
+	transition:ease-out 0.3s;
+	content:"";
+	z-index:-1;
+}
+.aboutbox:hover::before{
+	transition:ease-out 0.3s;
+	left:0;
+	right:0;
+}
+#service{
+	width:100%;
+	height:auto;
+	background:var(--service);
+}
+.servicebox1{
+	width:680px;
+	height:auto;
+	background:none;
+	margin:50px 0 45px 0;
+}
+.servicebox2{
+	width:500px;
+	height:auto;
+	background:none;
+	margin:50px 0 45px 40px;
+}
+.imgingredient{
+	width:680px;
+	
+}
+.imgvideo{
+	width:500px;
+	margin:57px 0 0 0;
+}
+#footer{
+	width:100%;
+	height:auto;
+	background:var(--footer);
+}
+.footerbox1{
+	width:640px;
+	height:auto;
+	background:none;
+	margin:50px 0 50px 0;
+}
+.footerbox2{
+	width:540px;
+	height:auto;
+	background:none;
+	margin:50px 0 50px 20px;
+}
+span{
+	color:#a99867;
+	font-family:Agency FB;
+}
+.input{
+	width:520px;
+	height:45px;
+	margin:5px 0 10px 0;
+	border:0;
+	
+}
+.name{
+	font-size:18px;
+	font-family:Agency FB;
+	
+}
+a{
+	color:#0068a5;
+	font-family:Agency FB;
+	
+}
+.input1{
+	width:520px;
+	height:45px;
+	margin:10px 0 10px 0;
+	border:0;
+	background:#a99867;
+	color:white;
+	font-size:19px;
+	font-family:Agency FB;
+	
+}
+#footer1{
+	width:100%;
+	height:auto;
+	background:var(--navbar);
+}
+.footer1box{
+	width:550px;
+	height:auto;
+	background:none;
+	margin:40px 0 40px 0;
+}
+.footer2box{
+	width:290px;
+	height:auto;
+	background:none;
+	margin:40px 0 40px 10px;
+}
+.footer3box{
+	width:300px;
+	height:auto;
+	background:none;
+	margin:40px 0 40px 60px;
+}
+.logoimg2{
+	width:200px;
+	margin:10px 0 0 0;
+}
+.ipsumdolor{
+	color:white;
+	line-height:24px;
+	padding:20px 0 0 0;
+	font-size:19px;
+}
+.links{
+	font-size:24px;
+	font-weight:bold;
+	color:white;
+}
+.ipsumdolor1{
+	color:white;
+	line-height:38px;
+	padding:20px 0 0 0;
+	font-size:19px;
+}
+.icon{
+	font-size:2rem;
+	color:white;
+	margin:10px 0 0 0;
+}
+#footer2{
+	width:100%;
+	height:80px;
+	background:var(--service);
+	position:relative;
+}
+.bee1{
+	width:40px;
+	position:absolute;
+	top:35%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.bee2{
+	font-size:19px;
+	position:absolute;
+	top:75%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	opacity:0.8;
+	
+	
+}
+
+/*================================media query start=====================================*/
+@media only screen and (min-width: 200px) and (max-width: 480px){
+	.container{
+		width:100%;
+		transition:all 2s;
+		
+	}
+	.main{
+		width:100%;
+		flex-direction:column;
+		transition:all 2s;
+	}
+	.headerbox1{
+	width:100%;
+	height:auto;
+	background:none;
+	padding:20px;
+	
+	}
+	.headerlorem{
+	line-height:38px;
+	padding:20px 0 0 0;
+	font-family:Agency FB;
+	font-size:22px;
+	color:var(--selective);
+	text-align:justify;
+}
+	.headerbox2{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:10px 0 50px 0;
+	}
+	.beerimg{
+	width:100%;
+	padding:20px;
+	}
+	.aboutusbox1{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 45px;
+	}
+.aboutusbox2{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 45px;
+	}
+.aboutusbox3{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 45px;
+	}
+.servicebox1{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:50px 0 20px 0;
+	}
+.servicebox2{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:0 0 0 0;
+	padding:20px;
+	}
+.imgingredient{
+	width:100%;
+
+	
+	}
+.imgvideo{
+	width:100%;
+	margin:50px 0 0 0;
+	}
+.footerbox1{
+	width:100%;
+	height:auto;
+	background:none;
+	padding:20px;
+	}
+.footerbox2{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:0 0 50px 0;
+	padding:20px;
+	}
+.input{
+	width:100%;
+	height:45px;
+	margin:5px 0 10px 0;
+	border:0;
+	}
+.input1{
+	width:100%;
+	height:45px;
+	margin:10px 0 10px 0;
+	border:0;
+	background:#a99867;
+	color:white;
+	font-size:19px;
+	font-family:Agency FB;
+	
+	}
+.footer1box{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:40px 0 40px 0;
+	text-align:center;
+	}
+.footer2box{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:20px 0 40px 0;
+	text-align:center;
+	}
+.footer3box{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:20px 0 40px 0;
+	text-align:center;
+	}
+/*=======================================tooglebtnstart=======================================*/
+#navbar{
+	width:100%;
+	height:auto;
+	flex-direction:column;
+	display:none;
+	background:var(--navbar);
+	transition:all .8s;
+	border-bottom:5px solid white;
+	}
+#toggle:checked + #navbar{
+	display:flex;
+	}
+.toggle-area{
+	display:flex;
+	}
+.logoimg{
+	margin:20px 0 0 0;
+	float:left;
+	display:none;
+	}
+.logoimg1{
+	width:200px;
+	margin:0 200px 0 0 ;
+	}
+ul{
+	float:left;
+	text-align:center;
+	margin:20px 0 20px 160px;
+	}
+ul li{
+	display:block;
+	}
+}
+/*=================================tablet screen start=========================================================*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.container{
+		width:100%;
+		transition:all 2s;
+		
+	}
+	.main{
+		width:100%;
+		display:flex;
+		flex-wrap:wrap;
+		transition:all 2s;
+		
+	}
+	.headerbox1{
+	width:100%;
+	height:auto;
+	background:none;
+	padding:20px;
+	
+	}
+	.headerlorem{
+	line-height:38px;
+	padding:20px 0 0 0;
+	font-family:Agency FB;
+	font-size:22px;
+	color:var(--selective);
+	text-align:justify;
+	}
+.headerbox2{
+	width:590px;
+	height:auto;
+	background:none;
+	margin:10px 0 50px 0;
+	}
+.beerimg{
+	width:590px;
+	}
+.aboutusbox1{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 45px;
+	}
+.aboutusbox2{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 45px;
+	}
+.aboutusbox3{
+	width:390px;
+	height:auto;
+	background:none;
+	margin:50px 0 0 45px;
+	}
+.servicebox1{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:50px 0 20px 0;
+	}
+.servicebox2{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:0 0 0 0;
+	padding:20px;
+	}
+.imgingredient{
+	width:100%;
+	}
+.imgvideo{
+	width:100%;
+	margin:50px 0 0 0;
+	}
+.footerbox1{
+	width:100%;
+	height:auto;
+	background:none;
+	padding:20px;
+	}
+.footerbox2{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:0 0 50px 0;
+	padding:20px;
+	}
+.input{
+	width:100%;
+	height:45px;
+	margin:5px 0 10px 0;
+	border:0;
+	}
+.input1{
+	width:100%;
+	height:45px;
+	margin:10px 0 10px 0;
+	border:0;
+	background:#a99867;
+	color:white;
+	font-size:19px;
+	font-family:Agency FB;
+	
+	}
+.footer1box{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:40px 0 40px 0;
+	text-align:center;
+	}
+.footer2box{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:20px 0 40px 0;
+	text-align:center;
+	}
+.footer3box{
+	width:100%;
+	height:auto;
+	background:none;
+	margin:20px 0 40px 0;
+	text-align:center;
+	}
+}

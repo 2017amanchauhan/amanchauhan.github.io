@@ -1,0 +1,604 @@
+body{
+	background:green;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:calibri;
+}
+:root{
+	--navcolor:#131313;
+	--logobox:#790000;
+	--headertext:#a08658;
+	--aboutus:#efebe5;
+	--lorem:#393d47;
+}
+#nav{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+	
+}
+.container{
+	width:1170px;
+	height:auto;
+	background:none;
+	margin:auto;
+}
+.main{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.logobox{
+	width:200px;
+	height:200px;
+	background:var(--logobox);
+	
+}
+.logosize{
+	width:80px;
+	margin:20px 0 0 60px;
+}
+.logotext{
+	text-align:center;
+	font-size:28px;
+	color:white;
+	margin:5px 0 0 0;
+}
+#nav1{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+}
+ul{
+	text-align:center;
+	padding:60px 0 20px 0;
+	
+}
+li{
+	display:inline-block;
+	
+}
+a{
+	font-size:24px;
+	padding:0 30px;
+	text-decoration:none;
+	color:white;
+}
+#header{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+}
+.headertext{
+	color:var(--headertext);
+	font-size:19px;
+	text-align:center;
+	padding:20px 0 10px 0;
+}
+#header1{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+}
+.headertext1{
+	color:white;
+	font-size:38px;
+	text-align:center;
+	padding:0 0 20px 0;
+	font-family:arial;
+}
+#header2{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+}
+.header2wine{
+	width:400px;
+}
+#aboutus{
+	width:100%;
+	height:auto;
+	background:var(--aboutus);
+}
+.aboutimgbox{
+	flex-basis:580px;
+	height:auto;
+	background:none;
+	margin:90px 0 20px 0;
+}
+.winebristos{
+	
+}
+.abouttextbox{
+	flex-basis:580px;
+	height:auto;
+	background:none;
+	margin:90px 0 20px 0;
+}
+.abouttextone{
+	color:var(--headertext);
+	font-size:19px;
+}
+.abouttexttop{
+	color:var(--headertext);
+	font-size:26px;
+	padding:5px 0 0 0;
+}
+.aboutCerebri{
+	font-size:40px;
+	color:var(--navcolor);
+	padding:10px 0 0 0;
+	letter-spacing:1.5px;
+}
+.lorem{
+	font-size:22px;
+	color:var(--lorem);
+	line-height:32px;
+	padding:20px 0 0 0;
+}
+.aboutboxdetail{
+	width:200px;
+	height:60px;
+	background:var(--navcolor);
+	color:white;
+	line-height:60px;
+	text-align:center;
+	font-size:22px;
+	margin:60px 0 125px 0;
+}
+.aboutboxdetail:hover{
+	background:var(--headertext);
+}
+#aboutus1{
+	width:100%;
+	height:auto;
+	background:white;
+}
+.aboutus1box{
+	width:280px;
+	height:auto;
+	background:none;
+	margin:60px 0 60px 0;
+}
+.aboutus1box1{
+	width:280px;
+	height:auto;
+	background:none;
+	margin:60px 0 60px 10px;
+}
+.aboutus1box2{
+	width:280px;
+	height:auto;
+	background:none;
+	margin:60px 0 60px 10px;
+}
+.aboutus1box3{
+	width:280px;
+	height:auto;
+	background:none;
+	margin:60px 0 60px 10px;
+}
+.aboutus1text{
+	font-size:40px;
+	text-align:center;
+	color:var(--navcolor);
+	
+}
+.top{
+	font-size:25px;
+	text-align:center;
+	color:var(--headertext);
+	padding:4px 0 0 0;
+}
+#service{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+}
+.serviceimgbox{
+	width:292px;
+	height:292px;
+	background:#efebe5;
+}
+.imgwinetaste{
+	width:292px;
+}
+.serviceimgbox1{
+	width:292px;
+	height:292px;
+	background:#efebe5;
+	
+}
+.serviceimgbox2{
+	width:292px;
+	height:292px;
+	background:#efebe5;
+	
+}
+.serviceimgbox3{
+	width:292px;
+	height:292px;
+	background:#efebe5;
+	
+}
+.Diverse{
+	font-size:38px;
+	text-align:center;
+	padding:100px 0 0 0;
+	color:var(--navcolor);
+}
+#service1{
+	width:100%;
+	height:auto;
+	background:white;
+}
+.servicetextone{
+	color:var(--headertext);
+	font-size:19px;
+	text-align:center;
+	padding:60px 0 0 0;
+}
+.servicetexttop{
+	color:var(--headertext);
+	font-size:26px;
+	padding:5px 0 0 0;
+	text-align:center;
+}
+.boxserviceimgg{
+	width:380px;
+	height:700px;
+	background:none;
+	margin:50px 0 50px 0;
+}
+.imgrosey{
+	width:380px;
+}
+.boxserviceimgg1{
+	width:380px;
+	height:700px;
+	background:none;
+	margin:50px 0 50px 20px;
+}
+.boxserviceimgg2{
+	width:380px;
+	height:700px;
+	background:none;
+	margin:50px 0 50px 20px;
+}
+#service2{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+}
+.winebristos1{
+	width:400px;
+}
+.aboutCerebri1{
+	font-size:40px;
+	color:white;
+	padding:10px 0 0 0;
+	letter-spacing:1.5px;
+}
+.lorem1{
+	font-size:22px;
+	color:#afafaf;
+	line-height:32px;
+	padding:20px 0 0 0;
+}
+.aboutboxdetail1{
+	width:200px;
+	height:60px;
+	background:white;
+	color:var(--navcolor);
+	line-height:60px;
+	text-align:center;
+	font-size:22px;
+	margin:60px 0 125px 0;
+}
+.aboutboxdetail1:hover{
+	background:var(--logobox);
+	color:white;
+}
+.abouttextone1{
+	color:var(--headertext);
+	font-size:19px;
+}
+.winebristos2{
+	width:350px;
+}
+#footer{
+	width:100%;
+	height:auto;
+	background:white;
+}
+.servicetexttop1{
+	font-size:42px;
+	color:var(--navcolor);
+	text-align:center;
+	padding:5px 0 50px 0;
+}
+.footertextbox{
+	background:var(--aboutus);
+	width:300px;
+	height:450px;
+	margin:0 0 90px 0;
+}
+.footertextbox1{
+	background:var(--navcolor);
+	width:300px;
+	height:500px;
+	margin:0 0 90px 0;
+	
+}
+.footertextbox2{
+	background:var(--aboutus);
+	width:300px;
+	height:450px;
+	margin:0 0 90px 0;
+
+}
+.footertextbox3{
+	background:var(--aboutus);
+	width:300px;
+	height:450px;
+	margin:0 0 90px 0;
+}
+.Classic{
+	font-size:35px;
+	color:var(--navcolor);
+	padding:25px 0 0 20px;
+}
+.month{
+	font-size:28px;
+	padding:25px 0 0 20px;
+	color:#a1a1a1;
+}
+.check{
+	width:25px;
+	margin:25px 0 0 20px;
+}
+.ipsum{
+	color:white;
+}
+.Classic1{
+	font-size:35px;
+	color:white;
+	padding:25px 0 0 20px;
+}
+.month1{
+	font-size:28px;
+	padding:25px 0 0 20px;
+	color:white;
+}
+#footer1{
+	width:100%;
+	height:auto;
+	background:var(--navcolor);
+}
+.ftrbox1{
+	width:320px;
+	height:250px;
+	background:none;
+	margin:70px 0 0 0;
+}
+.ftrbox2{
+	width:250px;
+	height:250px;
+	background:none;
+	margin:70px 0 0 10px;
+}
+.ftrbox3{
+	width:250px;
+	height:250px;
+	background:none;
+	margin:70px 0 0 10px;
+}
+.ftrbox4{
+	width:320px;
+	height:250px;
+	background:none;
+	margin:70px 0 0 10px;
+}
+.wineelogo{
+	width:80px;
+}
+.dolor{
+	color:white;
+	padding:20px 0 0 0;
+	line-height:28px;
+	font-size:17px;
+}
+.links{
+	font-size:24px;
+	font-weight:bold;
+	color:white;
+}
+.product{
+	font-size:17px;
+	color:white;
+	line-height:36px;
+}
+.fa-facebook-square{
+	font-size:2rem;
+	color:white;
+}
+.fa-twitter-square{
+	font-size:2rem;
+	color:white;
+	margin:0 0 0 10px;
+}
+.fa-linkedin-square{
+	font-size:2rem;
+	color:white;
+	margin:0 0 0 10px;
+}
+.fa-instagram{
+	font-size:2rem;
+	color:white;
+	margin:0 0 0 10px;
+}
+input{
+	width:300px;
+	height:40px;
+	border-radius:4px;
+	border:0px;
+	margin:10px 0 0 0;
+}
+.submit{
+	font-size:1.2rem;
+	background:var(--aboutus);
+}
+.email{
+	color:white;
+	font-size:19px;
+}
+#footer2{
+	width:100%;
+	height:auto;
+	background:var(--aboutus);
+}
+.bee1{
+	width:40px;
+	margin:20px 0 20px 0;
+}
+.bee2{
+	font-size:18px;
+	padding:0 0 0 8px;
+	opacity:0.8;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px){
+	.container{
+		width:100%;
+	}
+	.main{
+
+		flex-direction:column;
+	}
+	.logobox{
+		width:200px;
+	}
+	.logosize{
+		width:80px;
+		margin:20px 0 0 55px;
+		
+	}
+	.headertext1{
+		font-size:34px;
+	}
+	.header2wine{
+	width:350px;
+	}
+	.winebristos{
+		width:400px;
+	}
+	.abouttextbox{
+	
+	margin:0 0 20px 0;
+	}
+	.aboutus1box{
+	
+	margin:60px 0 0 0;
+	}
+	.aboutus1box1{
+	
+	margin:30px 0 0 0;
+	}
+	.aboutus1box2{
+	
+	margin:30px 0 0 0;
+	}
+	.aboutus1box3{
+	
+	margin:30px 0 60px 0;
+	}
+	.boxserviceimgg1{
+	margin:10px 0 10px 0;
+	}
+	.boxserviceimgg2{
+	margin:10px 0 10px 0;
+	}
+	.boxserviceimgg{
+	margin:50px 0 10px 0;
+	}
+	.abouttextone1{
+	padding:100px 0 0 0;
+	}
+	.aboutboxdetail1{
+	
+	margin:60px 0 0 0;
+	}
+	.winebristos1{
+	width:360px;
+	}
+	.footertextbox{
+	
+	width:100%;
+	
+	margin:0 0 30px 0;
+	}
+	.footertextbox1{
+	
+	width:100%;
+	
+	margin:0 0 30px 0;
+	
+	}
+	.footertextbox2{
+	
+	width:100%;
+	
+	margin:0 0 30px 0;
+
+	}
+	.footertextbox3{
+	
+	width:100%;
+	
+	margin:0 0 40px 0;
+	}
+	.ftrbox1{
+	width:100%;
+	height:200px;
+	
+	margin:40px 0 0 0;
+	text-align:center;
+	}
+	.ftrbox2{
+	width:100%;
+	height:200px;
+	
+	margin:40px 0 0 0;
+	text-align:center;
+	}
+	.ftrbox3{
+	width:100%;
+	height:200px;
+	
+	margin:40px 0 0 0;
+	text-align:center;
+	}
+	.ftrbox4{
+	width:100%;
+	height:200px;
+	
+	margin:40px 0 0 0;
+	text-align:center;
+	}
+	.bee1{
+	width:40px;
+	margin:20px 0 0 0;
+	}
+	.bee2{
+	font-size:19px;
+	padding:0 0 10px 8px;
+	opacity:0.9;
+	}
+	
+	
+}

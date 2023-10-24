@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:#1c2023;
+}
+/*============progress bar start=====================*/
+.skills h2{
+	font-weight:400;
+	letter-spacing:1px;
+	margin-top:40px;
+	margin-bottom:5px;
+	color:#fff;
+	font-size:14px;
+	font-family:arial;
+}
+.progress-bar1{
+	background:#959595;
+	
+	border-radius:5px;
+}
+.progress-bar1 div{
+	/*background:red;*/
+	width:0%;
+	height:10px;
+	border-radius:5px;
+}
+.progress-bar1 div span{
+	background:#1c2023;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	float:right;
+	margin-top:-15px;
+	margin-right:-20px;
+	color:#fff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+.css{
+	background:yellow;
+	animation:css 1s linear forwards;
+}
+.html{
+	background:blue;
+	animation:html 1s linear forwards;
+}
+.javascript{
+	background:black;
+	animation:javascript 1s linear forwards;
+}
+.bootstrap{
+	background:skyblue;
+	animation:bootstrap 1s linear forwards;
+}
+.css span{
+	border:1px solid #e91e63;
+}
+.html span{
+	border:1px solid #cddc39;
+}
+.javascript span{
+	border:1px solid #00bcd4;
+}
+.bootstrap span{
+	border:1px solid #ffeb3b;
+}
+@keyframes html{
+	100%{
+		width:86%;
+	}
+}
+@keyframes css{
+	100%{
+		width:85%;
+	}
+}
+@keyframes javascript{
+	100%{
+		width:70%;
+	}
+}
+@keyframes bootstrap{
+	100%{
+		width:90%;
+	}
+}
+/*============progress bar end=====================*/

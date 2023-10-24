@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto+Condensed&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+body{
+	background:white;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+:root{
+	--navbg:#1c2023;
+	--a:#7d8792;
+	--hello:#ffffff;
+	--web:#e0a80d;
+	--about:#2d2e2e;
+	--h2:#e0a80d;
+	--p:#bac8d3;
+	--progressbar1:#959595;
+}
+ul li a{
+	padding:0 25px;
+	color:var(--hello);
+	line-height:46px;
+	font-size:16px;
+	opacity:0.8;
+	font-weight:300;
+	font-family: 'Muli', sans-serif;
+}
+.navbg{
+	background:var(	--navbg);
+	padding:15px;
+}
+#header{
+	background: url('../image/headercomputer.jpg') center center no-repeat;
+	width: 100%;
+    height: auto;
+    background-attachment: fixed;
+	background-size:cover;
+	position: relative;
+   
+}
+#header:before{
+  content: "";
+  background: rgba(56, 64, 70, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.hello{
+	color:var(--hello);
+	font-size: 20px;
+    font-weight: 300;
+	padding:100px 0 0 0;
+	letter-spacing:1px;
+	font-family: 'Muli', sans-serif;
+}
+.welcome{
+	font-size:52px;
+	color:var(--hello);
+	font-weight:900;
+	font-family: 'Muli', sans-serif;
+}
+#element{
+	color:var(--h2);
+}
+.headerlorem{
+	color:var(--hello);
+	font-weight: 300;
+	font-size: 17px;
+	 font-family: 'Muli', sans-serif;
+}
+.btn{
+	border: 2px solid var(--h2);
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color:var(--hello);
+    font-weight:500;
+    margin-top: 20px;
+    text-decoration: none;
+    z-index: 200;
+	font-family: 'Muli', sans-serif;
+}
+.cvbtn{
+	padding:0 0 150px 0;
+	
+}
+#about{
+	background:var(--navbg);
+	height:auto;
+}
+.aboutme{
+	 color:var(--h2);
+	 font-size:32px;
+	 font-weight:bold;
+	 font-family: 'Muli', sans-serif;
+}
+.aboutlorem{
+	color:var(--h2);
+	font-weight: 300;
+	font-size: 17px;
+	padding:10px 0 10px 0;
+	font-family: 'Muli', sans-serif;
+}
+.about-me h2{
+    font-size: 26px;
+    font-weight: 700;
+    color:var(--hello);
+	font-family: 'Muli', sans-serif;
+}
+.about-me p {
+    font-size: 15px;
+    font-weight: 300;
+    color:var(--p);
+    line-height: 28px;
+    margin: 20px 0 40px 0;
+	font-family: 'Muli', sans-serif;
+}
+
+.about-me .btn-1 {
+    background: var(--h2);
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: var(--hello);
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: none;
+	 font-family: 'Muli', sans-serif;
+}
+
+.about-me .btn-2 {
+    border: 2px solid var(--h2);
+    border-radius: 35px;
+    padding: 10px 50px;
+    font-size: 14px;
+    color:var(--hello);
+    font-weight: 500;
+    text-decoration: none;
+	 font-family: 'Muli', sans-serif;
+}
+#skill{
+	background:var(--navbg);
+	height:auto;
+}
+.lines{
+	width:100%;
+	height:25px;
+	position:relative;
+}
+.lines::after,.lines::before{
+	content:'';
+	position:absolute;
+	margin:auto;
+	height:2px;
+	background:var(--hello);
+	width:45%;
+	top:45%;
+}
+.lines::after{
+	left:0
+}
+.lines::before{
+	right:0
+}
+.circle{
+	height:25px;
+	width:25px;
+	border:2px solid var(--hello);
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	border-radius:50%;
+}
+.diamond{
+	height:20px;
+	width:20px;
+	border:2px solid var(--hello);
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	transform:rotate(45deg)
+}
+/*============progress bar start=====================*/
+.skills h2{
+	font-weight:400;
+	letter-spacing:1px;
+	margin-top:40px;
+	margin-bottom:10px;
+	color:#fff;
+	font-size:14px;
+	font-family: 'Muli', sans-serif;
+}
+.progress-bar1{
+	background:var(--progressbar1);
+	border-radius:5px;
+}
+.progress-bar1 div{
+	background:var(--h2);
+	width:0%;
+	height:10px;
+	border-radius:5px;
+}
+.progress-bar1 div span{
+	background:#1c2023;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	float:right;
+	margin-top:-15px;
+	margin-right:-20px;
+	color:#fff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+.css{
+	background:yellow;
+	animation:css 1s linear forwards;
+}
+.html{
+	background:blue;
+	animation:html 1s linear forwards;
+}
+.javascript{
+	background:black;
+	animation:javascript 1s linear forwards;
+}
+.bootstrap{
+	background:skyblue;
+	animation:bootstrap 1s linear forwards;
+}
+.php{
+	background:skyblue;
+	animation:php 1s linear forwards;
+}
+.jquery{
+	background:skyblue;
+	animation:jquery 1s linear forwards;
+}
+.canva{
+	background:skyblue;
+	animation:canva 1s linear forwards;
+}
+.photoshop{
+	background:skyblue;
+	animation:photoshop 1s linear forwards;
+}
+.illustrator{
+	background:skyblue;
+	animation:illustrator 1s linear forwards;
+}
+.coreldraw{
+	background:skyblue;
+	animation:coreldraw 1s linear forwards;
+}
+.css span{
+	border:1px solid #fff;
+}
+.html span{
+	border:1px solid #cddc39;
+}
+.javascript span{
+	border:1px solid #00bcd4;
+}
+.bootstrap span{
+	border:1px solid #ffeb3b;
+}
+.php span{
+	border:1px solid #fff;
+}
+.jquery span{
+	border:1px solid #cddc39;
+}
+.canva span{
+	border:1px solid #e91e63;
+}
+.photoshop span{
+	border:1px solid #fff;
+}
+.illustrator span{
+	border:1px solid #e91e63;
+}
+.coreldraw span{
+	border:1px solid #fff;
+}
+@keyframes html{
+	100%{
+		width:90%;
+	}
+}
+@keyframes css{
+	100%{
+		width:85%;
+	}
+}
+@keyframes javascript{
+	100%{
+		width:70%;
+	}
+}
+@keyframes bootstrap{
+	100%{
+		width:95%;
+	}
+}
+@keyframes php{
+	100%{
+		width:80%;
+	}
+}
+@keyframes jquery{
+	100%{
+		width:88%;
+	}
+}
+@keyframes canva{
+	100%{
+		width:85%;
+	}
+}
+@keyframes photoshop{
+	100%{
+		width:80%;
+	}
+}
+@keyframes illustrator{
+	100%{
+		width:77%;
+	}
+}
+@keyframes coreldraw{
+	100%{
+		width:80%;
+	}
+}
+/*============progress bar end=====================*/
+
+  
+/*===========[06]. Portfolio istope start=============== */
+#portfolio{
+	background:var(--navbg);
+	height:auto;
+}
+
+.portfolio {
+    padding: 130px 0 95px 0;
+    background: #2d2e2e;
+}
+
+.portfolio h2 {
+	color:var(--h2);
+	font-size:32px;
+	font-weight:600;
+	font-family: 'Muli', sans-serif;
+    margin-bottom: 60px;
+	
+}
+
+.portfolio .button-group {
+    margin-bottom: 30px;
+}
+
+.portfolio .button-group button {
+    border: 0;
+    background: transparent;
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    margin-right: 10px;
+    color: #bac8d3;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 35px;
+    transition: all .2s ease-in-out;
+}
+
+.portfolio .button-group button:hover {
+    color: #ffffff;
+    background: #e0a80d;
+}
+
+.portfolio .button-group button.active {
+    color: #ffffff;
+    background: #e0a80d;
+}
+
+.portfolio .single-portfolio-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.portfolio .single-portfolio-item .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #e0a80d;
+    color: #ffffff;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+
+.portfolio .single-portfolio-item .overlay .content {
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    
+}
+
+.portfolio .single-portfolio-item .overlay .content h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.portfolio .single-portfolio-item .overlay .content p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.portfolio .single-portfolio-item .overlay .content a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.portfolio .single-portfolio-item:hover .overlay {
+    opacity: .95;
+}
+/*===========[06]. Portfolio istope end=============== */
+
+/*===========Contact form css start===============*/
+#contact{
+	background:var(--navbg);
+	height:auto;
+}
+.dibba{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	width:100%;
+}
+.box{
+	position:relative;
+	width:580px;
+	height:570px;
+	background:#1c1c1c;
+	border-radius:8px;
+	overflow:hidden;
+}
+.box::before{
+	content:'';
+	position:absolute;
+	top:-50%;
+	left:-50%;
+	width:380px;
+	height:570px;
+	background:linear-gradient(0deg,transparent,
+	transparent,#e0a80d,#e0a80d,#e0a80d);
+	z-index:1;
+	animation:animate 6s linear infinite;
+	transform-origin:bottom right;
+}
+.box::after{
+	content:'';
+	position:absolute;
+	top:-50%;
+	left:-50%;
+	width:380px;
+	height:570px;
+	background:linear-gradient(0deg,transparent,
+	transparent,#e0a80d,#e0a80d,#e0a80d);
+	z-index:1;
+	animation:animate 6s linear infinite;
+	transform-origin:bottom right;
+	animation-delay:-3s;
+}
+.borderLine{
+	position:absolute;
+	top:0;
+	inset:0;
+}
+.borderLine::before{
+	content:'';
+	position:absolute;
+	top:-50%;
+	left:-50%;
+	width:380px;
+	height:570px;
+	background:linear-gradient(0deg,transparent,
+	transparent,#fff,#fff,#fff);
+	z-index:1;
+	animation:animate 6s linear infinite;
+	transform-origin:bottom right;
+	animation-delay:-1.5s;
+}
+.borderLine::after{
+	content:'';
+	position:absolute;
+	top:-50%;
+	left:-50%;
+	width:380px;
+	height:570px;
+	background:linear-gradient(0deg,transparent,
+	transparent,#fff,#fff,#fff);
+	z-index:1;
+	animation:animate 6s linear infinite;
+	transform-origin:bottom right;
+	animation-delay:-4.5s;
+}
+@keyframes animate
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	100%
+	{
+		transform:rotate(360deg);
+	}
+}
+.box form{
+	position:absolute;
+	inset:4px;
+	background:var(--navbg);
+	padding:50px 40px;
+	border-radius:8px;
+	z-index:2;
+	display:flex;
+	flex-direction:column;
+}
+.box form h2{
+	color:#fff;
+	font-weight:500;
+	text-align:center;
+	letter-spacing:0.1rem;
+	font-family: 'Muli', sans-serif;
+}
+.box form .inputBox{
+	position:relative;
+	width:100%;
+	margin-top:35px;	
+}
+.box form .inputBox input{
+	position:relative;
+	width:100%;
+	padding:20px 10px 10px;
+	background:transparent;
+	border:none;
+	outline:none;
+	box-shadow:none;
+	color:#23242a;
+	font-size:1em;
+	letter-spacing:0.05em;
+	transition:0.5s;
+	z-index:10;
+}
+.box form .inputBox span{
+	position:absolute;
+	left:0;
+	padding:20px 0px 10px;
+	pointer-events:none;
+	color:#8f8f8f;
+	font-size:1em;
+	letter-spacing:0.05em;
+	transition:0.5s;
+}
+.box form .inputBox input:valid ~ span,
+.box form .inputBox input:focus ~ span{
+	color:#fff;
+	font-size:0.75em;
+	transform:translateY(-34px);
+}
+.box form .inputBox i{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:2px;
+	background:#fff;
+	border-radius:4px;
+	overflow:hidden;
+	transition:0.5s;
+	pointer-events:none;
+}
+.box form .inputBox input:valid ~ i,
+.box form .inputBox input:focus ~ i{
+	height:44px;
+}
+.box form .links{
+	display:flex;
+	justify-content:space-between;
+}
+.box form .links a{
+	margin:10px 0;
+	font-size:0.75em;
+	color:#8f8f8f;
+	text-decoration:none;
+}
+.box form .links a:hover,
+.box form .links a:nth-child(2)
+{
+	color:#fff;
+}
+/*===========Contact form css end===============*/
+
+/*======== Contact form hbtn========*/
+.main_btn2{
+	position:relative;
+	
+	
+}
+ .h_btn2{
+	position:relative;
+	width:150px;
+	height:50px;
+	background:transparent;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	letter-spacing:2px;
+	color:white;
+	overflow:hidden;
+}
+.h_btn2 span{
+	display:block;
+	background:var(--h2);
+	transition: .5s;
+}
+.h_btn2 span:nth-child(1),
+.h_btn2 span:nth-child(3)
+{
+	position:absolute;
+	height:2px;
+	width:100%;
+}
+.h_btn2 span:nth-child(2),
+.h_btn2 span:nth-child(4)
+{
+	position:absolute;
+	height:100%;
+	width:2px;
+}
+.h_btn2 span:nth-child(1)
+{
+	top:0;
+	left:0;
+	transition-delay:0s;
+}
+.h_btn2 span:nth-child(2)
+{
+	top:-100%;
+	right:0%;
+	transition-delay:.1s;
+}
+.h_btn2 span:nth-child(3)
+{
+	bottom:0;
+	right:0;
+	transition-delay:.1s;
+}
+.h_btn2 span:nth-child(4)
+{
+	bottom:-100%;
+	left:0;
+	transition-delay:.1s;
+}
+.h_btn2:hover span:nth-child(1)
+{
+	top:0;
+	left:0;
+}
+.h_btn2:hover span:nth-child(2)
+{
+	top:0;
+	right:0;
+}
+.h_btn2:hover span:nth-child(3)
+{
+	bottom:0;
+	right:0;
+}
+.h_btn2:hover span:nth-child(4)
+{
+	bottom:0;
+	left:0;
+}
+/*======== Contact form hbtn========*/
+/*======== Contact info start========*/
+.info {
+    padding-left: 40px;
+	font-family: 'Muli', sans-serif;
+	padding-top:200px;
+}
+
+ .info span {
+    font-size: 20px;
+    color: #e0a80d;
+	
+}
+
+ .info p {
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+    color: #eee;
+}
+/*======== Contact info end========*/
+
+/* ==========================
+   [10]. Footer
+========================== */
+.footer {
+    padding: 40px 0;
+    background: #242527;
+	font-family: 'Muli', sans-serif;
+}
+
+ .footer .social-icons span{
+    color: var(--h2);
+    padding: 0 5px;
+}
+
+.footer p {
+    color:var(--hello);
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 15px;
+}
+

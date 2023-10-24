@@ -1,0 +1,440 @@
+body{
+	background:green;
+	
+	
+}
+*{
+	box-sizing:borderbox;
+	margin:0;
+	padding:0;
+}
+:root{
+	--nav:#4a55b3;
+	--white:white;
+}
+#nav{
+	width:100%;
+	height:80px;
+	background:var(--nav);
+}
+.container{
+	width:1170px;
+	height:auto;
+	margin:auto;
+	background:none;
+	
+}
+.navlogo{
+	width:200px;
+	padding:5px 0 0 0;
+	float:left;
+}
+ul{
+	float:right;
+}
+li{
+	display:inline-block;
+}
+a{
+	text-decoration:none;
+	padding:0 30px;
+	line-height:80px;
+	color:var(--white);
+	font-family:calibri;
+	font-size:18px;
+}
+#header{
+	width:100%;
+	height:auto;
+	background:red;
+	background:url(../image/campus-people.jpg) center;
+	background-size:cover;
+	padding-bottom:10%;
+	
+	
+}
+.student{
+	font-size:50px;
+	font-family:calibri;
+	color:var(--white);
+	text-align:center;
+	padding:80px 0 0 0;
+}
+.ourvision{
+	font-size:30px;
+	color:var(--white);
+	text-align:center;
+	padding:10px 0 0 0;
+	font-family:calibri;
+	letter-spacing:1px;
+}
+.lorem{
+	font-size:19px;
+	color:var(--white);
+	text-align:center;
+	padding:10px 0 0 0;
+	font-family:calibri;
+	line-height:28px;
+}
+.tourbox{
+	width:200px;
+	height:50px;
+	background:var(--nav);
+	line-height:50px;
+	text-align:center;
+	font-size:19px;
+	color:var(--white);
+	font-family:calibri;
+	margin:25px 0 0 41%;
+	
+	
+}
+#aboutus{
+	width:100%;
+	height:auto;
+	background:var(--white);
+}
+.main{
+	display:flex;
+	justify-content:center;
+}
+.box1{
+	width:350px;
+	height:auto;
+	background:none;
+	margin:25px 0 0 80px;
+}
+.box2{
+	width:350px;
+	height:auto;
+	background:none;
+	margin:25px 0 0 80px;
+	
+}
+.imgbox1{
+	width:350px;
+}
+.why{
+	font-size:30px;
+	font-family:calibri;
+	color:var(--nav);
+}
+.boxlorem{
+	font-size:20px;
+	font-family:calibri;
+	line-height:32px;
+	padding:20px 0 0 0;
+	color:#515151;
+}
+.readmore{
+	width:180px;
+	height:50px;
+	
+	line-height:50px;
+	text-align:center;
+	font-size:19px;
+	color:#201f42;
+	font-family:calibri;
+	margin:40px 0 0 0;
+	border:3px solid #201f42;
+	
+}
+#service{
+	width:100%;
+	height:auto;
+	background:var(--white);
+}
+.Upcoming{
+	font-size:38px;
+	font-family:calibri;
+	color:#201f42;
+	text-align:center;
+	padding:30px 0 0 0;
+}
+.eventbox1{
+	width:350px;
+	height:350px;
+	background:#fbfbfb;
+	margin:40px 0 0 0;
+}
+.eventbox2{
+	width:350px;
+	height:350px;
+	background:none;
+	margin:40px 0 0 20px;
+}
+.eventbox3{
+	width:350px;
+	height:350px;
+	background:#fbfbfb;
+	margin:40px 0 0 20px;
+}
+.three{
+	font-size:28px;
+	font-family:calibri;
+	color:var(--nav);
+	font-weight:bold;
+	text-align:center;
+}
+.fa-calendar{
+	font-size:3rem;
+	margin:20px 0 0 150px;
+}
+.event{
+	font-size:25px;
+	font-family:calibri;
+	color:var(--nav);
+	margin:10px 0 0 0;
+	text-align:center;
+}
+.loremipsum{
+	font-size:19px;
+	font-family:calibri;
+	color:#201f42;
+	text-align:center;
+	padding:20px 0 0 0;
+	line-height:28px;
+}
+#service1{
+	width:100%;
+	height:auto;
+	background:white;
+	
+	
+}
+.servicebg{
+	width:100%;
+	height:420px;
+	background:url(../image/BACKGROUND-CAMPUS.png);
+	background-size:cover;
+}
+.tourbox1{
+	width:200px;
+	height:50px;
+	background:white;
+	line-height:50px;
+	text-align:center;
+	font-size:19px;
+	color:#201f42;
+	font-family:calibri;
+	margin:25px 0 0 41%;
+}
+#service2{
+	width:100%;
+	height:auto;
+	background:var(--white);
+}
+
+.box11{
+	width:350px;
+	height:auto;
+	background:none;
+	margin:25px 70px 0 70px;
+}
+#footer{
+	width:100%;
+	height:auto;
+	background:white;
+	
+
+}
+.footerdesign{
+	width:100%;
+	height:150px;
+	background:url(../image/Header-bg.png);
+	background-size:cover;
+	
+}
+#footer1{
+	width:100%;
+	height:auto;
+	background:#efeef4;
+}
+.what{
+	font-family:calibri;
+	font-size:38px;
+	text-align:center;
+	color:#201f42;
+	font-weight:bold;
+	padding:40px 0 0 0;
+}
+.circlebox1{
+	width:400px;
+	height:500px;
+	background:none;
+	margin:40px 40px 0 40px;
+}
+.studentimg{
+	width:150px;
+	padding:20px 0 0 0;
+}
+.michetext{
+	color:#4f5abd;
+	font-family:calibri;
+	font-size:28px;
+	font-weight:bold;
+	padding:0 0 0 20px;
+}
+.michetext1{
+	color:#201f42;
+	font-family:calibri;
+	font-size:22px;
+	padding:10px 0 0 20px;
+}
+#footer2{
+	width:100%;
+	height:auto;
+	background:#4f5aba;
+}
+.footerdesign{
+	width:100%;
+	height:150px;
+	background:url(../image/Header-bg.png);
+	background-size:cover;
+	
+}
+.needhelp{
+	font-family:calibri;
+	font-size:60px;
+	font-weight:bold;
+	color:white;
+	padding:40px 0 0 0;
+	text-align:center;
+}
+#footer3{
+	width:100%;
+	height:auto;
+	background:#201f42;
+}
+.boxer1{
+	width:300px;
+	height:auto;
+	background:none;
+	margin:25px 80px 0 0;
+}
+.boxer2{
+	width:700px;
+	height:auto;
+	background:none;
+	margin:25px 0 0 50px;
+}
+.yourlogo{
+	width:200px;
+	padding:0 0 20px 40px;
+}
+.copyright{
+	font-family:calibri;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	padding:20px 0 0 100px;
+}
+
+
+	
+	
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+	
+	.container{
+		width:100%;
+		flex-direction:column;
+	}
+	.main{
+		flex-direction:column;
+	}
+	#header{
+		width:100%;
+		flex-direction:column;
+		
+	}
+	.tourbox{
+	margin:25px 0 0 29%;
+	}
+	.tourbox1{
+	margin:25px 0 0 29%;
+	}
+	.lorem{
+	font-size:12px;
+	line-height:18px;
+	}
+	.student{
+	font-size:40px;
+	}
+	.ourvision{
+	font-size:25px;
+	}
+	.box1{
+	margin:25px 0 0 42px;
+}
+.box2{
+	margin:25px 0 0 42px;
+	text-align:center;
+}
+.readmore{
+	
+	margin:40px 0 0 80px;
+	
+}
+.eventbox1{
+	margin:20px 0 0 42px;
+}
+.eventbox2{
+	margin:20px 0 0 42px;
+}
+.eventbox3{
+	margin:20px 0 0 42px;
+}
+.student{
+	font-size:30px;
+}
+.ourvision{
+	font-size:20px;
+	
+}
+.box11{
+	margin:25px 0 0 42px;
+	text-align:center;
+}
+.circlebox1{
+	
+	margin:40px 0 0 20px;
+	text-align:center;
+}
+.michetext{
+	text-align:center;
+	padding:0 0 0 0;
+}
+.michetext1{
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.needhelp{
+	text-align:center;
+	
+}
+.boxer1{
+	width:100%;
+	
+	margin:25px 0 0 0;
+}
+.yourlogo{
+	width:200px;
+	padding:0 0 0 120px;
+}
+.boxer2{
+	width:100%;
+	margin:0 0 0 0;
+}
+.copyright{
+	
+	padding:10px 0 20px 0;
+	text-align:center;
+	font-size:16px;
+}
+
+
+
+
+	
+}

@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+	box-sizing:border-box;
+}
+html{
+	 scroll-behavior: smooth;
+}
+body{
+	background:green;
+	font-family: 'Merriweather', serif;
+}
+/*=======================This is a allcolor box=======================*/
+:root{
+	--navbg:#e8e2dd;
+	--a:#191923;
+	--header:#e8e2dd;
+	--voilence:#ef5b5b;
+	--lorem:#acacac;
+	--gallery:#0d0d11;
+	--ipsum:#393d47;
+	--colorbg:#e8e2dd;
+	--dec:#9dacac;
+	--bee2:#0068a5;
+	
+}
+/* -------This is a navbar start---------- */
+.whitelogo{
+	width:80px;
+}
+
+a{
+	font-size:20px;
+	color:var(--a);
+	padding:0 20px;
+}
+a:hover{
+	text-decoration:none;
+	color:#a92535;
+}
+.navbg{
+	background:var(--navbg);
+}
+.fa-bars{
+	color:black;
+	font-size:2rem;
+}
+/* -------This is a navbar end---------- */
+/* -------This is a header ---------- */
+#header{
+	background:var(--header);
+	height:auto;
+	
+}
+.end{
+	color:var(--a);
+	font-size:50px;
+	font-weight:bold;
+}
+.voilence{
+	background:var(--voilence);
+	color:#fff;
+}
+.readmore{
+	background:none;
+	border:1px solid black;
+	padding:10px 40px;
+	font-size:18px;
+	transition:ease-out 0.8s;
+	position:relative;
+	z-index:2;
+	
+}
+.readmore:hover{
+	color:white;
+}
+.readmore::before{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:50%;
+	opacity:1;
+	background:var(--a);
+	transition:ease-out 0.5s;
+	content:"";
+	z-index:-1;
+	
+}
+.readmore:hover::before{
+	transition:ease-out 0.3s;
+	top:0;
+	bottom:0;
+	border:3px solid white;
+
+
+}
+/* -------This is a aboutus container---------- */
+#aboutus{
+	background:var(--a);
+	height:auto;
+}
+.aboutexibition{
+	color:var(--voilence);
+	padding:80px 0 0 0;
+}
+.call{
+	color:#fff;
+	font-size:45px;
+	font-weight:bold;
+}
+.lorem{
+	color:var(--lorem);
+	line-height:32px;
+	font-size:19px;
+}
+.readmore1{
+	background:var(--voilence);
+	padding:10px 40px;
+	font-size:18px;
+	color:#fff;
+	transition:ease-out 0.8s;
+	position:relative;
+	z-index:2;
+	
+}
+.readmore1:hover{
+	color:white;
+}
+.readmore1::before{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:50%;
+	opacity:1;
+	background:var(--a);
+	transition:ease-out 0.5s;
+	content:"";
+	z-index:-1;
+	
+}
+.readmore1:hover::before{
+	transition:ease-out 0.3s;
+	top:0;
+	bottom:0;
+	border:3px solid white;
+}
+.mainimg{
+	width:70%;
+}
+/* -------This is a gallery container---------- */
+#gallery{
+	background:var(--gallery);
+	height:auto;
+}
+.aboutexibition1{
+	color:var(--voilence);
+	padding:20px 0 0 0;
+	font-size:19px;
+}
+.bgbody{
+	background:var(--gallery);
+}
+.call1{
+	color:#fff;
+	font-size:32px;
+	font-weight:bold;
+}
+/* -------This is a service container---------- */
+#service{
+	background:var(--a);
+	height:auto;
+}
+.handpaint{
+	width:60%;
+}
+.aboutexibition2{
+	color:var(--voilence);
+	padding:150px 0 0 0;
+}
+/* -------This is a blog container---------- */
+#blog{
+	background:var(--gallery);
+	height:auto;
+}
+.ipsum{
+	font-size:15px;
+	line-height:26px;
+	padding:10px 0 0 0;
+	color:var(--ipsum);
+}
+.art{
+	font-size:18px;
+	font-weight:bold;
+}
+.colorbg{
+	background:var(--colorbg);
+}
+/* -------This is a aboutus1 container---------- */
+#aboutus1{
+	background:var(--a);
+	height:auto;
+}
+/* --------------This is a footer container--------------*/
+#footer{
+	background:var(--gallery);
+	height:auto;
+}
+.loremipsum{
+	color:var(--lorem);
+	line-height:28px;
+	padding:10px 0 10px 0;
+
+}
+/* ---------------This is a footer1 container---------------*/
+#footer1{
+	background:var(--a);
+	height:auto;
+}
+.upcoming{
+	font-size:38px;
+	color:#fff;
+}
+.twentynine{
+	font-size:52px;
+	color:#fff;
+}
+.dec{
+	color:var(--dec);
+	padding:10px 0 0 0;
+}
+.art{
+	font-size:24px;
+	
+}
+.box1{
+	background:var(--gallery);
+}
+.box2{
+	background:var(--colorbg);
+}
+.amet1{
+	color:var(--ipsum);
+	padding:10px 0 0 0;
+	font-size:19px;
+}
+.location{
+	width:40px;
+	margin:0 10px 0 0;
+}
+.beaver{
+	font-size:12px;
+}
+.readmore2{
+	background:var(--voilence);
+	padding:10px 20px;
+	font-size:15px;
+	color:#fff;
+	transition:ease-out 0.8s;
+	position:relative;
+	z-index:2;
+	
+}
+.readmore2:hover{
+	color:white;
+}
+.readmore2::before{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:50%;
+	opacity:1;
+	background:var(--a);
+	transition:ease-out 0.5s;
+	content:"";
+	z-index:-1;
+	
+}
+.readmore2:hover::before{
+	transition:ease-out 0.3s;
+	top:0;
+	bottom:0;
+	border:3px solid white;
+}
+/* -------------This is a footer2 container----------------*/
+#footer2{
+	background:var(--gallery);
+	height:auto;
+}
+.loremipsum1{
+	color:#fff;
+	padding:20px 0 0 0;
+	line-height:28px;
+	font-size:15px;
+}
+.links{
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+.loremipsum2{
+	color:#fff;
+	padding:20px 0 0 0;
+	line-height:38px;
+	font-size:15px;
+}
+.socialicon{
+	font-size:2rem;
+	color:white;
+	margin:20px 0 0 0;
+}
+.input1{
+	width:100%;
+}
+.input2{
+	width:100%;
+	height:40px;
+	margin:10px 0 0 0;
+	background:var(--voilence);
+	color:#fff;
+}
+.input2:hover{
+	background:var(--a);
+	border:2px solid white;
+}
+/* ---------------This is a footer3 container--------------- */
+#footer3{
+	background:var(--a);
+	height:auto;
+}
+.bee1{
+	width:40px;
+}
+.bee2{
+	color:var(--bee2);
+	padding:10px 0 0 0;
+	font-size:14px;
+}

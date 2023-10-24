@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow+Semi+Condensed&family=Quicksand:wght@500&family=Roboto+Condensed&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+:root{
+	--a:#334364;
+	--navbg:#f5f8f9;
+	--stunning:#ffffff;
+	--about:#dcbb92;
+	--service:#1e3054;
+	--para1:#616673;
+	--chase1:#5272b2;
+	--blog:#293b5f;
+}
+a{
+	padding:0 20px;
+	color:var(--a);
+	line-height:42px;
+	font-size:16px;
+}
+.navbg{
+	background:var(--navbg);
+}
+.logoimg{
+	width:70px;
+}
+.fa-bars{
+	font-size:2rem;
+	color:var(--a);
+}
+#header{
+	height:auto;
+}
+.box1{
+	background:#213151;
+	opacity:0.9;
+}
+.stunning{
+	font-weight:bold;
+	font-size:34px;
+	text-align:left;
+	color:var(--stunning);
+}
+.paragraph{
+	padding:20px 0 0 0;
+	font-size:18px;
+	text-align:left;
+	color:var(--stunning);
+}
+hr.line{
+	border:1.5px solid white;
+}
+.twodollor{
+	padding:10px 0 0 0;
+	font-weight:bold;
+	font-size:28px;
+	color:var(--stunning);
+}
+.btnblood{
+	background:none;
+	border:2px solid white;
+	width:50%;
+	border-radius:0px;
+	color:var(--stunning);
+}
+#aboutus{
+	background:var(--stunning);
+	height:auto;
+}
+.latest{
+	color:var(--a);
+	font-size:32px;
+	font-weight:bold;
+	padding:10px 0 0 0;
+}
+.about{
+	font-size:18px;
+	color:var(--about);
+}
+.down{
+	color:var(--a);
+	font-weight:bold;
+	padding:10px 0 0 0;
+}
+.para{
+	color:var(--a);
+	padding:10px 0 0 0;
+}
+.readmore{
+	border:2px solid var(--a);
+	border-radius:0px;
+	width:50%;
+	margin:10px 0 0 0;
+}
+#service{
+	background:var(--service);
+	height:auto;
+}
+.chase{
+	color:var(--stunning);
+	font-weight:bold;
+	padding:10px 0 0 0;
+}
+.para1{
+	color:var(--para1);
+	font-size:18px;
+	padding:15px 0 30px 0;
+}
+.chase1{
+	color:var(--chase1);
+	font-weight:bold;
+	padding:10px 0 0 0;
+	font-size:20px;
+}
+#blog{
+	background:var(--blog);
+	height:auto;
+	border-top:4px solid white;
+}
+#gallery{
+	background:var(--stunning);
+	height:auto;
+}
+.fa-id-badge{
+	font-size:4rem;
+	color:var(--about);
+	padding:0 0 10px 0;
+}
+.down1{
+	color:var(--a);
+	font-weight:bold;
+	padding:10px 0 0 0;
+	font-size:19px;
+}
+.fa-database{
+	font-size:4rem;
+	color:var(--about);
+	padding:0 0 10px 0;
+}
+.fa-map-marker{
+	font-size:4rem;
+	color:var(--about);
+	padding:0 0 10px 0;
+}
+#footer{
+	background:url(../image/84770f_5d808592eef24e498bf807fcc6844dfb~mv2.jpg);
+	height:auto;
+	border-top:4px solid var(--a);
+}
+.latest1{
+	color:var(--stunning);
+	font-size:32px;
+	font-weight:bold;
+	padding:10px 0 0 0;
+}
+.box2{
+	background:#213151;
+	opacity:0.7;
+	height:auto;
+}
+.para2{
+	color:var(--stunning);
+	font-size:18px;
+	padding:15px 0 0 0;
+}
+.down2{
+	color:var(--about);
+	font-weight:bold;
+	padding:10px 0 0 0;
+	font-size:19px;
+}
+.down2{
+	color:var(--about);
+	font-weight:bold;
+	padding:10px 0 0 0;
+	font-size:19px;
+}
+.down2{
+	color:var(--about);
+	font-weight:bold;
+	padding:10px 0 0 0;
+	font-size:19px;
+}
+.fa-user-circle-o{
+	font-size:2.5rem;
+	color:var(--about);
+	padding:0 0 10px 0;
+}
+#footer1{
+	background:var(--stunning);
+	height:auto;
+	border-top:4px solid var(--a);
+}
+.address{
+	color:var(--a);
+	font-size:22px;
+	font-weight:bold;
+	
+}
+.para3{
+	color:var(--para1);
+	font-size:18px;
+	padding:15px 0 30px 0;
+}
+.btnblood1{
+	background:var(--a);
+	width:100%;
+	border-radius:0px;
+	color:var(--stunning);
+	height:45px;
+}
+.input{
+	border:1px solid var(--a);
+}
+.para4{
+	color:var(--para1);
+	font-size:18px;
+	padding:15px 0 0 0;
+}
+.fa-facebook-square{
+	font-size:1.8rem;
+	color:var(--a);
+}
+.fa-twitter-square{
+	font-size:1.8rem;
+	color:var(--a);
+	margin:0 0 0 3px;
+}
+.fa-linkedin-square{
+	font-size:1.8rem;
+	color:var(--a);
+	margin:0 0 0 3px;
+}
+.fa-instagram{
+	font-size:1.8rem;
+	color:var(--a);
+	margin:0 0 0 3px;
+}
+#footer2{
+	background:var(--a);
+	height:auto;
+}
+.bee1{
+	width:40px;
+}
+.bee2{
+	padding:5px 0 0 0;
+	color:var(--stunning);
+	opacity:0.6;
+}

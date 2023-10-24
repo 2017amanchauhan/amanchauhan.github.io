@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+}
+:root{
+	--a:#000000;
+	--navbg:#ffffff;
+	--amanspan:#fd5520;
+	--downlodecv:#1b1b1b;
+	--icon:#131418;
+}
+.dark-theme{
+	--a:#ffffff;
+	--navbg:#000000;
+	--amanspan:#fd5520;
+	--downlodecv:#fd5520;
+	--icon:#ffffff;
+}
+
+.logoimg{
+	width:100px;
+}
+a{
+	padding:0 20px;
+	font-size:16px;
+	color:var(--a);
+	line-height:42px;
+}
+.navbg{
+	background:var(--navbg);
+}
+.fa-bars{
+	font-size:2rem;
+	color:var(--a);
+}
+#header{
+	background:var(--navbg);
+	height:auto;
+}
+.aman{
+	font-size:42px;
+	font-weight:bold;
+	color:var(--a);
+	padding:100px 0 0 0;
+}
+.amanspan{
+	color:var(--amanspan);
+}
+.this{
+	font-size:17px;
+	color:var(--a);
+}
+.downlodecv{
+	background:var(--downlodecv);
+	padding:10px 25px;
+	color:var(--navbg);
+	border:0px;
+	border-radius:5px;
+}
+.imggirl{
+	
+}
+.fa-linkedin-square{
+	font-size:1.5rem;
+	color:var(--icon);
+}
+.fa-behance-square{
+	font-size:1.5rem;
+	color:var(--icon);
+	padding:0 0 0 10px;
+}
+.fa-dribbble{
+	font-size:1.5rem;
+	color:var(--icon);
+	padding:0 0 0 10px;
+}
+#icon{
+	width:40px;
+	cursor:pointer;
+}

@@ -1,0 +1,15 @@
+body{
+	background:white;
+}
+#box{
+	width:200px;
+	height:200px;
+	background:red;
+}
+button{
+	padding:10px 20px;
+	background:black;
+	color:white;
+	border-radius:15px;
+	border:0px;
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+:root{
+	--navbg:#000000;
+	--a:#ffffff;
+	--btn1:#fed70d;
+	--insurancetext:#d5d5d5;
+	--box:#fff8d6;
+	--box2:#0d1010;
+	--links:#000005;
+	--bee2:#8a3c90;
+}
+a{
+	padding:0 20px;
+	color:var(--a);
+	font-size:21px;
+	line-height:42px;
+}
+.navbg{
+	background:var(--navbg);
+}
+.logoimg{
+	width:100px;
+	margin:15px 0 15px 0;
+}
+.fa-bars{
+	font-size:2rem;
+	color:var(--a);
+}
+#header{
+	background:var(--navbg);
+	height:auto;
+}
+.new{
+	font-size:62px;
+	color:var(--a);
+	font-weight:bold;
+}
+.lineimg{
+	width:200px;
+	margin:20px 0 0 0;
+}
+.get{
+	color:var(--a);
+	font-size:24px;
+	padding:20px 0 0 0;
+}
+.btn1{
+	background:var(--btn1);
+	color:var(--navbg);
+}
+.explore{
+	font-size:52px;
+	color:var(--a);
+	font-weight:bold;
+}
+.lorem{
+	font-size:22px;
+	color:var(--a);
+}
+#aboutus{
+	background:var(--navbg);
+	height:auto;
+}
+.choose{
+	font-size:32px;
+	color:var(--a);
+	font-weight:bold;
+}
+.lorem1{
+	font-size:20px;
+	color:var(--a);
+}
+#service{
+	background:var(--navbg);
+	height:auto;
+}
+.insurance{
+	width:50px;
+}
+.insurancetext{
+	font-size:28px;
+	color:var(--insurancetext);
+	font-weight:bold;
+	padding:10px 0 10px 0;
+}
+.insurance1{
+	width:65px;
+}
+.insurance2{
+	width:40px;
+}
+#blog{
+	background:var(--navbg);
+	height:auto;
+}
+.card{
+	border:0px;
+	background:var(--navbg);
+}
+.benefits{
+	font-size:20px;
+	color:var(--a);
+	
+}
+.spaecial{
+	font-size:32px;
+	color:var(--a);
+	font-weight:bold;
+}
+.starting{
+	font-size:26px;
+	color:var(--btn1);
+	font-weight:bold;
+	padding:10px 0 0 0;
+}
+#gallery{
+	background:var(--navbg);
+	height:auto;
+}
+.convertimg{
+	margin:10px 0 10px 0;
+}
+.box1{
+	background:var(--box);
+}
+.convertext{
+	font-size:26px;
+	color:var(--a);
+	font-weight:bold;
+	padding:40px 0 0 0;
+}
+.lorem2{
+	font-size:21px;
+	color:var(--a);
+	padding:10px 0 0 0;
+}
+.box2{
+	background:var(--box2);
+}
+#footer{
+	background:var(--navbg);
+	height:auto;
+}
+.box3{
+	background:var(--btn1);
+}
+.links{
+	color:var(--links);
+	font-weight:bold;
+	font-size:21px;
+}
+.ipsum{
+	color:var(--links);
+	font-size:17px;
+	line-height:24px;
+}
+.loction{
+	padding:20px 0 0 0;
+	line-height:38px;
+	font-size:17px;
+}
+.fa-facebook-square{
+	font-size:2rem;
+}
+.fa-twitter-square{
+	font-size:2rem;
+	margin:0 0 0 5px;
+}
+.fa-linkedin-square{
+	font-size:2rem;
+	margin:0 0 0 5px;
+}
+.fa-instagram{
+	font-size:2rem;
+	margin:0 0 0 5px;
+}
+.socialicon{
+	margin:10px 0 0 0;
+}
+.email{
+	padding:20px 0 0 0;
+}
+.input{
+	width:100%;
+	height:45px;
+}
+.input1{
+	background:var(--links);
+	color:var(--a);
+	width:100%;
+	height:45px;
+	margin:10px 0 20px 0;
+}
+#footer1{
+	background:var(--navbg);
+	height:auto;
+}
+.bee1{
+	width:40px;
+	margin:15px 0 0 0;
+}
+.bee2{
+	color:var(--bee2);
+	padding:5px 0 10px 0;
+	font-size:17px;
+}

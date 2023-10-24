@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto+Condensed&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+:root{
+	--a:#ffffff;
+	--aboutbest:#282222;
+	--work:#009bde;
+	--destopicon:#d73652;
+	--feature:#f3f3f3;
+}
+.cooperimg{
+	width:120px;
+	padding:10px;
+}
+.trybtn{
+	border-radius:50px;
+	border:2px solid gray;
+	background:none;
+	font-size:15px;
+	color:var(--a);
+	font-weight:300;
+	padding:10px 30px;
+}
+.navbg{
+	background:#1c2023;
+	height:auto;
+}
+a{
+	color:var(--a);
+	padding:0 20px;
+	font-size:16px;
+	line-height:46px;
+	font-weight:300;
+	
+}
+#header{
+	background:url(../image/headercomputer.jpg) center center no-repeat;
+	background-size:cover;
+	height:auto;
+	position:relative;
+}
+#header:before{
+	content: "";
+	background: rgba(56, 64, 70, 0.5);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.headerbest{
+	color:var(--a);
+	font-size:22px;
+	letter-spacing:2px;
+	font-weight:300;
+	padding:70px 0 0 0;
+}
+.headertry{
+	font-size:52px;
+	font-weight:bold;
+	color:var(--a);
+	padding:5px 0 0 0;
+}
+.headerlorem{
+	color:var(--a);
+	font-size:18px;
+	font-weight:400;
+	padding:5px 0 190px 0;
+}
+#aboutus{
+	background:var(--a);
+	height:auto;
+}
+.aboutbest{
+	font-size:42px;
+	color:var(--aboutbest);
+	font-weight:600;
+	font-family:arial;
+}
+span.work{
+	color:var(--destopicon);
+}
+.idcardimg{
+	width:50px;
+	float:left;
+}
+.special{
+	padding:0 0 0 20px;
+	font-size:20px;
+	color:var(--aboutbest);
+	font-weight:550;
+}
+.duis{
+	color:#667d93;
+	padding:5px 0 0 70px;
+	font-weight:300;
+	font-size:17px;
+	font-family:calibri;
+}
+.duiss{
+	color:#667d93;
+	padding:5px 0 0 60px;
+	font-weight:300;
+	font-size:17px;
+	font-family:calibri;
+}
+.idcardimg1{
+	width:40px;
+	float:left;
+	
+}
+#service{
+	background:var(--a);
+	height:auto;
+}
+.duis1{
+	color:#667d93;
+	padding:20px 0 0 0;
+	font-weight:300;
+	font-size:18px;
+	font-family:calibri;
+}
+.two{
+	font-size:28px;
+	color:var(--aboutbest);
+	font-weight:600;
+	font-family:calibri;
+}
+.components{
+	color:#667d93;
+	font-weight:400;
+	font-size:18px;
+	font-family:calibri;
+	padding:5px 0 0 0;
+}
+.imgcomputer{
+	width:450px;
+}
+#feature{
+	background:var(--feature);
+	height:auto;
+}
+.featurebox{
+	background:var(--a);
+	padding:30px;
+	border:4px solid var(--a);
+}
+.desktopicon{
+	font-size:3rem;
+	color:var(--destopicon);
+}
+.desktopicon1{
+	font-size:3rem;
+	color:var(--destopicon);
+}
+.windowos{
+	font-size:22px;
+	color:var(--aboutbest);
+	font-family:calibri;
+	font-weight:600;
+}
+.Showing{
+	font-family:calibri;
+	padding:5px 0 0 0;
+}
+.what{
+	color:var(--destopicon);
+	font-weight:500;
+}
+.ourservice{
+	font-size:42px;
+	color:var(--aboutbest);
+	font-weight:600;
+	font-family:arial;
+}
+.featurebox1{
+	background:var(--a);
+	padding:30px;
+	border:4px solid var(--destopicon);
+}
+#testimonal{
+	background:url(../image/luca-bravo-9l_326FISzk-unsplash.jpg)fixed no-repeat;
+	height:auto;
+	background-size:cover;
+	position:relative;
+}
+#testimonal:before{
+	content: "";
+	background: rgba(56, 64, 70, 0.7);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.iconwindow{
+	font-size:3rem;
+	color:var(--a);
+}
+.threefive{
+	color:var(--destopicon);
+	font-size:34px;
+	font-weight:bold;
+	font-family:arial;
+}
+.happy{
+	color:var(--a);
+}
+#pricing{
+	background:var(--a);
+	height:auto;
+}
+.box{
+	width:100%;
+	background:var(--navbg);
+	box-shadow:0 0 5px #bababa;
+	overflow:hidden;
+	position:relative;
+	
+}
+.box .box-content{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.box .box-content:before,
+.box .box-content:after{
+	content:"";
+	width:95%;
+	height:47%;
+	background:#e01e48;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	transition:all 0.5s;
+	opacity:0;
+}
+.box .box-content:before{
+	top:-20%;
+}
+.box .box-content:after{
+	bottom:-20%;
+}
+.box:hover .box-content:before{
+	top:3%;
+	opacity:0.7;
+}
+.box:hover .box-content:after{
+	bottom:3%;
+	opacity:0.7;
+}
+.box .content{
+	width:100%;
+	height:45px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1;
+	margin:auto;
+	transform:rotate(90deg);
+	opacity:0;
+	transition:all 0.5s;
+	
+}
+.box:hover .content{
+	transform:rotate(0deg);
+	opacity:1;
+}
+.box .content .fa-link{
+	background:var(--a);
+	font-size:1rem;
+	padding:15px;
+	border-radius:50%;
+	transition:all 0.4s;
+
+}
+.box .content .fa-whatsapp{
+	background:var(--a);
+	font-size:1rem;
+	padding:15px;
+	border-radius:50%;
+	transition:all 0.4s;
+
+}
+.box .content .fa-instagram{
+	background:var(--a);
+	font-size:1rem;
+	padding:15px;
+	border-radius:50%;
+	transition:all 0.4s;
+
+}
+.box .content .fa-link:hover{
+	background:#009bde;
+	color:var(--a);
+	font-size:1rem;
+	padding:15px;
+	border-radius:50%;
+
+}
+.box .content .fa-whatsapp:hover{
+	background:#009bde;
+	color:var(--a);
+	font-size:1rem;
+	padding:15px;
+	border-radius:50%;
+
+}
+.box .content .fa-instagram:hover{
+	background:#009bde;
+	color:var(--a);
+	font-size:1rem;
+	padding:15px;
+	border-radius:50%;
+
+}
+.appone{
+	font-weight:bold;
+	color:var(--navbg);
+	font-size:20px;
+	padding:15px 0 0 0;
+	font-family:arial;
+	
+}
+.app{
+	font-weight:500;
+	font-size:15px;
+	color:var(--destopicon);
+	padding:5px 0 15px 0;
+	
+}
+#footer{
+	background:var(--a);
+	height:auto;
+}
+.card-body{
+	background:var(--feature);
+}
+.fa-clock-o{
+	float:left;
+	font-size:1.5rem;
+}
+.datewatch{
+	float:left;
+	padding:0 0 0 20px;
+}
+.fa-comments-o{
+	font-size:1.2rem;
+	float:left;
+	padding:0 20px 0 30px;
+}
+.cardboxred{
+	background:var(--destopicon);
+}
+.what1{
+	color:var(--a);
+	font-weight:500;
+}
+.asam{
+	color:var(--a);
+}	
+.wacth{
+	color:var(--a);
+}
+.datewatch1{
+	color:var(--a);
+	float:left;
+	padding:0 0 0 20px;
+}
+.announcetext{
+	color:var(--a);
+}
+.comments{
+	color:var(--a);
+}
+.seven1{
+	color:var(--a);
+}

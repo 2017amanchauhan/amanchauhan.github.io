@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+}
+
+.close{
+	font-size:3rem;
+	color:black;
+	cursor:pointer;
+}
+.line{
+	height:1px;
+	background:black;
+}
+.btn{
+	width:100%;
+	height:45px;
+	background:orange;
+	padding:10px 30px;
+	margin:10px 0 10px 0;
+}
+.card{
+	height:auto;
+	padding:20px;
+	position:absolute;
+	top:-100%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	transition:.5s;
+}
+
+.show{
+      position:absolute;
+	  top:50%;
+	  left:50%;
+	  transform:translate(-50%,-50%)
+}
+.input{
+	width:100%;
+	height:45px;
+}
+.btn1{
+	border:0px;
+	height:45px;
+	background:orange;
+	padding:10px 30px;
+	margin:10px 0 10px 0;
+	position:absolute;
+	top:90%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.btn1:hover{
+	background:black;
+	color:orange;
+	border-radius:5px;
+}

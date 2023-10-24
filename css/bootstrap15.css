@@ -1,0 +1,271 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-border;
+}
+body{
+	background:green;
+}
+html{
+	scroll-behavior:smooth;
+}
+/*==============root all color===============*/
+:root{
+	--navbg:#fbfcff;
+	--a:#131313;
+	--header:#5786af;
+	--stand:#efca59;
+	--standwith:#ffffff;
+	--lorem:#d5d5d5;
+	--makebttntext:#0057b7;
+	--lorem1:#6d6d6d;
+	--directhelp:#00000f;
+	--card:#d1e8f7;
+	--eighteen:#34495e;
+	
+}
+/*==============navbar================*/
+.logoimg{
+	width:80px;
+}
+.navbg{
+	background:var(--navbg);
+}
+a{
+	padding:0 20px;
+	color:var(--a);
+	font-size:19px;
+	line-height:32px;
+}
+.fa-bars{
+	color:var(--a);
+	font-size:2rem;
+}
+/*=================header========================*/
+#header{
+	background:var(--header);
+	height:auto;
+}
+.stand{
+	font-size:46px;
+	font-weight:bold;
+	color:var(--stand);
+}
+.standwith{
+	font-size:40px;
+	font-weight:bold;
+	color:var(--standwith);
+}
+.lorem{
+	font-size:19px;
+	padding:20px 0 0 0;
+	color:var(--lorem);
+}
+.makebttn{
+	background:var(--stand);
+	color:var(--makebttntext);
+	padding:8px 35px;
+}
+.ukrainimg{
+	margin:50px 0 0 0;
+	width:700px;
+}
+/*=================aboutus======================*/
+#aboutus{
+	background:var(--navbg);
+	height:auto;
+}
+.oursupport{
+	font-size:26px;
+	font-weight:bold;
+	color:var(--makebttntext);
+}
+.help{
+	font-size:30px;
+	font-weight:bold;
+	color:var(--a);
+}
+.lorem1{
+	font-size:19px;
+	padding:10px 0 0 0;
+	color:var(--lorem1);
+}
+.charityimg{
+	width:40px;
+}
+.direct{
+	margin:20px 0 0 0;
+}
+.directhelp{
+	padding:0 0 0 10px;
+	font-size:18px;
+	color:var(--directhelp);
+}
+.crdbg{
+	background:var(--card);
+}
+.line{
+	background:var(--makebttntext);
+}
+.lorem2{
+	font-size:19px;
+	padding:5px 0 20px 0;
+	color:var(--lorem1);
+}
+.charityimg1{
+	width:35px;
+}
+.charityimg2{
+	width:23px;
+}
+/*===============service=====================*/
+#service{
+	background:var(--makebttntext);
+	height:auto;
+}
+.info{
+	font-size:19px;
+	color:var(--stand);
+}
+.lets{
+	font-size:34px;
+	font-weight:bold;
+	color:var(--standwith);
+}
+.ipsum{
+	font-size:20px;
+	padding:20px 0 0 0;
+	color:var(--lorem);
+	line-height:32px;
+}
+.fifteen{
+	padding:20px 0 0 0;
+	font-size:20px;
+	color:var(--standwith);
+}
+.prog{
+	background:var(--stand);
+}
+.warimg{
+	width:400px;
+}
+/*================gallery=================*/
+#gallery{
+	background:var(--navbg);
+	height:auto;
+}
+.eighteen{
+	color:var(--eighteen);
+	font-size:28px;
+	font-weight:bold;
+	padding:50px 0 0 0;
+}
+.raised{
+	color:var(--eighteen);
+	font-size:22px;
+	padding:0 0 50px 0;
+}
+/*=============blog=================*/
+#blog{
+	background:var(--makebttntext);
+	height:auto;
+}
+/*=============footer==============*/
+#footer{
+	background:var(--navbg);
+	height:auto;
+}
+.dona{
+	color:var(--makebttntext);
+	font-weight:bold;
+	font-size:18px;
+	padding:0 0 10px 0;
+}
+.prog1{
+	background:var(--makebttntext);
+}
+.makebttn1{
+	background:var(--makebttntext);
+	color:var(--navbg);
+	padding:8px 35px;
+}
+.elit{
+	font-size:16.5px;
+}
+.childimg{
+	width:100%;
+	padding:10px;
+}
+/*==============footer===============*/
+#footer1{
+	background:var(--makebttntext);
+	height:auto;
+}
+.elit1{
+	color:var(--navbg);
+	padding:15px 0 0 0;
+	font-size:16.5px;
+	
+}
+.links{
+	color:var(--navbg);
+	font-weight:bold;
+	font-size:22px;
+}
+.news{
+	color:var(--navbg);
+	padding:15px 0 0 0;
+	line-height:38px;
+	font-size:16.5px;
+}
+.fa-facebook-square{
+	color:var(--navbg);
+	font-size:2rem;
+}
+.fa-twitter-square{
+	color:var(--navbg);
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.fa-linkedin-square{
+	color:var(--navbg);
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.fa-instagram{
+	color:var(--navbg);
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.socialicon{
+	padding:10px 0 0 0;
+}
+.email{
+	padding:15px 0 0 0;
+	color:var(--navbg);
+	font-size:16.5px;
+}
+.input1{
+	width:100%;
+	height:40px;
+	margin:5px 0 0 0;
+}
+.input2{
+	width:100%;
+	height:40px;
+	margin:10px 0 0 0;
+	background:var(--stand);
+	color:var(--makebttntext);
+	border:0px;
+}
+/*=============footer2======================*/
+#footer2{
+	background:var(--navbg);
+	height:auto;
+}
+.beeimg{
+	width:40px;
+}
+.bee2{
+	color:var(--makebttntext);
+}

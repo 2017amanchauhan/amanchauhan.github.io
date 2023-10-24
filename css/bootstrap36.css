@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+
+}
+.number{
+	font-size:52px;
+	font-weight:bold;
+}
+#accordion{
+	
+	
+}
+p{
+	text-align:justify;
+}
+ul li{
+	display:inline-block;
+	padding:0 20px;
+	
+}
+.work{
+	width:400px;
+}
+.item {
+	float:left;
+}

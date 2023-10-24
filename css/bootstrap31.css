@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;;
+}
+:root{
+	--a:#ffffff;
+	--alink:#b6b8b8;
+	--navbg:#090d0f;
+	--getstarted:#5b9e24;
+	--Voluptatem:#444444;
+	--Consequuntur:#848484;
+	--twothreetwo:#2a2a2a;
+	--about1:#f1f1f1;
+}
+a.navbar-brand{
+	font-weight:bold;
+	font-size:28px;
+	color:var(--a);
+	padding:10px;
+}
+ul li a{
+	padding: 0 15px;
+	color:var(--a);
+	line-height:38px;
+	font-size:15px;
+	font-weight:bold;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.navbg{
+	background:var(--navbg);
+	opacity:0.7;
+	
+}
+.getstarted{
+	background:none;
+	color:var(--a);
+	border:2px solid #5b9e24;
+	font-size:15px;
+	font-weight:bold;
+	font-family: 'PT Sans', sans-serif;
+}
+.getstarted:hover{
+	background:var(--getstarted);
+	color:var(--a);
+	border:2px solid #5b9e24;
+	font-size:15px;
+	font-weight:bold;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+.carousel-item{
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+}
+#header .carousel-item::before{
+	
+	content: "";
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.carousel-caption {
+	bottom:220px;
+}
+.carousel-caption h5{
+	font-size:45px;
+	text-transform:uppercase;
+	margin-top:25px;
+	
+}
+.carousel-caption p{
+	margin:auto;
+	font-size:18px;
+	line-height:1.6;
+	
+}
+.carousel-caption button{
+	text-transform:uppercase;
+	background:var(--getstarted);
+	padding:10px 30px;
+	display:inline-block;
+	margin-top:25px;
+	color:var(--a);
+}
+.fa-angle-left,
+.fa-angle-right{
+	background: none;
+	font-size: 30px;
+	line-height: 0;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 50px;
+	transition: 0.3s;
+	color: rgba(255, 255, 255, 0.5);
+	width: 54px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fa-angle-left:hover,
+.fa-angle-right:hover{
+	background:var(--getstarted);
+	color: rgba(255, 255, 255, 0.8);
+}
+.carousel-indicators li{
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	border:0;
+}
+.carousel-indicators li.active {
+  opacity: 1;
+  background: #5c9f24;
+}
+#aboutus{
+	background:var(--a);
+	height:auto;
+}
+.Voluptatem{
+	font-size:34px;
+	font-weight:bold;
+	color:var(--Voluptatem);
+}
+.loremipsum{
+	color:var(--Voluptatem);
+	padding:10px 0 0 0;
+	font-size:17.5px;
+	font-family: 'PT Sans', sans-serif;
+}
+.textset{
+	position:relative;
+}
+.fa-file-text-o{
+	padding:10px 0 0 0;
+	font-size:2.5rem;
+	color:var(--getstarted);
+}
+.Corporis{
+	font-family: 'PT Sans', sans-serif;
+	position:absolute;
+	top:9%;
+	padding:0 0 0 9px;
+	font-size:23px;
+	font-weight:bold;
+	color:var(--Voluptatem);
+}
+.Consequuntur{
+	font-family: 'PT Sans', sans-serif;
+	padding:0 0 0 44px;
+	font-size:17.5px;
+	color:var(--Consequuntur);
+}
+.fa-shirtsinbulk{
+	padding:10px 0 0 0;
+	font-size:2.5rem;
+	color:var(--getstarted);
+}
+.fa-envelope-open-o{
+	padding:10px 0 0 0;
+	font-size:2.2rem;
+	color:var(--getstarted);
+}
+.fa-calendar-minus-o{
+	padding:10px 0 0 0;
+	font-size:2.2rem;
+	color:var(--getstarted);
+}
+.mainbox{
+	position:relative;
+}
+.happyicon{
+	font-size:3.5rem;
+	color:var(--getstarted);
+	padding:10px 0 0 0;
+	
+}
+.twothreetwo{
+	font-size:50px;
+	font-weight:bold;
+	color:var(--twothreetwo);
+	position:absolute;
+	top:0%;
+	padding:0 0 0 10px;
+}
+.happyclients{
+	font-size:15px;
+	font-weight:bold;
+	color:var(--Voluptatem);
+	padding:0 0 0 75px;
+}
+.quae{
+	font-size:14px;
+	color:var(--Voluptatem);
+	padding:0 0 0 75px;
+}
+#about1{
+	background:var(--about1);
+	height:auto;
+}
+.clientimg{
+	
+	width:70px;
+	filter:grayscale(100%);
+	transition:.5s;
+}
+.clientimg:hover{
+	width:100px;
+	filter:grayscale(0%);
+	transform:scale(1.1,1.1);
+}
+#service{
+	background:var(--a);
+	height:500px;
+}
+.service{
+	font-size:34px;
+	font-weight:bold;
+	color:var(--getstarted);
+}
+.Magnam{
+	color:var(--Voluptatem);
+	font-size:17px;
+	font-family: 'PT Sans', sans-serif;
+}
+.brieficon{
+	font-size:2.5rem;
+	background:var(--a);
+	border-radius:50%;
+	padding:20px;
+	color:var(--getstarted);
+	box-shadow:0 0 11px 0.1px #5b9e24;;
+}
+.atque{
+	color:var(--Voluptatem);
+	padding:10px 0 0 0;
+	font-size:17px;
+	font-family: 'PT Sans', sans-serif;
+}
+.line{
+	
+ 
+  border-top: 2px solid var(--getstarted);
+  width:20%;
+  position:relative;
+  top:54%;
+  left:50%;
+  transform:translate(-50%,-50%);
+	
+	
+}
+.lorem{
+	color:var(--Voluptatem);
+	font-size:19px;
+	font-weight:bold;
+	padding:0 0 10px 0;
+}
+.box{
+	border:0px;
+}

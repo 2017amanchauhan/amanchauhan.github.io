@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+}
+button{
+	background:black;
+	color:white;
+	border:0px;
+	padding:10px 30px;
+}
+
+.abc{
+	color:white;
+	background:black;
+}
+.xyz{
+	color:white;
+	background:black;
+}
+#header{
+	background:red;
+}
+.abc{
+	border:2px solid blue;
+}

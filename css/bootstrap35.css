@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+	font-family: 'Lato', sans-serif;
+}
+:root{
+	--navbg:#f5eedf;
+	--ullia:#2a1a09;
+	--header:#ab182d;
+	--give:#ffffeb;
+	--shopbtn:#ffffff;
+	--good:#262623;
+	--dollorthirtyfive:#5f5a51;
+	--lorem1:#6d675e;
+}
+.navbg{
+	background:var(--navbg);
+}
+ul li a{
+	color:var(--ullia);
+	padding:0 20px;
+	line-height:38px;
+	font-size:17px;
+}
+.navlogo{
+	width:60px;
+}
+.fa-bars{
+	color:var(--ullia);
+	font-size:2rem;
+}
+#header{
+	background:var(--header);
+	height:auto;
+}
+.give{
+	color:var(--give);
+	font-size:16px;
+	letter-spacing:4px;
+}
+.Something{
+	font-size:55px;
+	color:var(--give);
+}
+.Shop{
+	color:var(--give);
+	font-size:19px;
+	word-spacing:2px;
+}
+.shopbtn{
+	background:var(--shopbtn);
+	border-radius:0px;
+	font-size:16px;
+	padding:10px 40px;
+}
+#aboutus{
+	background:var(--navbg);
+	height:auto;
+}
+.Good{
+	font-size:38px;
+	color:var(--good);
+}
+.treats{
+	color:var(--ullia);
+	letter-spacing:2px;
+	font-size:17px;
+}
+.notyour{
+	font-size:22px;
+	color:var(--good);
+}
+.dollorthirtyfive{
+	color:var(--dollorthirtyfive);
+	font-size:22px;
+}
+.addcartbtn{
+	background:none;
+	border:1px solid var(--ullia);
+	border-radius:0px;
+	padding:10px 40px;
+	font-size:17px;
+	font-weight:bold;
+}
+.card{
+	background:none;
+}
+.VIEWbtn{
+	background:var(--header);
+	color:var(--give);
+	padding:10px 45px;
+	border-radius:0px;
+	font-size:18px;
+}
+#service{
+	background:var(--header);
+	height:auto;
+}
+.watch{
+	color:var(--give);
+	font-size:19px;
+}
+hr{
+	border:1.5px solid white;
+}
+.Good1{
+	font-size:38px;
+	color:var(--give);
+}
+.star{
+	width:180px;
+}
+#gallery{
+	background:var(--shopbtn);
+	height:auto;
+}
+.Ridiculously{
+	font-size:26px;
+	color:var(--good);
+}
+.lorem{
+	color:var(--dollorthirtyfive);
+	font-size:17px;
+	line-height:27px;
+	font-family:arial;
+}
+#footer{
+	background:var(--header);
+	height:auto;
+}
+label{
+	color:white;
+}
+#footer1{
+	background:var(--navbg);
+	height:auto;
+}
+.lorem1{
+	color:var(--lorem1);
+	font-size:17.5px;
+	line-height:27px;
+	
+}
+.fa-facebook{
+	font-size:1.3rem;
+	color:var(--lorem1);
+}
+.fa-twitter{
+	font-size:1.3rem;
+	padding:0 0 0 15px;
+	color:var(--lorem1);
+}
+.fa-linkedin{
+	font-size:1.3rem;
+	padding:0 0 0 15px;
+	color:var(--lorem1);
+}
+.fa-instagram{
+	font-size:1.3rem;
+	padding:0 0 0 15px;
+	color:var(--lorem1);
+}
+.home{
+	color:var(--lorem1);
+}
+.bee1{
+	width:40px;
+}
+.bee2{
+	color:var(--lorem1);
+	padding:5px 0 0 0;
+}

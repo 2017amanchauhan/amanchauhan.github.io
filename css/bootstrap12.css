@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+body{
+	background:white;
+	font-family: 'Dosis', sans-serif;
+}
+:root{
+	--navbg:#ffffff;
+	--a:#171727;
+	--header:#cae4f1;
+}
+.navbg{
+	background:var(--navbg);
+}
+.logochocoimg{
+	width:150px;
+}
+ul li a{
+	color:var(--a);
+	padding:0 20px;
+	font-size:18px;
+	line-height:38px;
+}
+.fa-bars{
+	color:var(--a);
+	font-size:2rem;
+}
+#header{
+	background:var(--header);
+	height:auto;
+}
+.easter{
+	color:var(--a);
+	font-size:36px;
+	font-weight:bold;
+}
+.lorem{
+	color:var(--a);
+	font-size:19px;
+	line-height:32px;
+	padding:20px 0 0 0;
+}
+.get{
+	color:var(--a);
+	padding:15px 0 0 0;
+	font-size:36px;
+}
+.shopbttn{
+	background:var(--header);
+	border:2px solid var(--a);
+	margin:20px 0 0 0;
+}
+#aboutus{
+	background:var(--navbg);
+	height:auto;
+}
+.abouttext{
+	font-size:19px;
+	color:var(--a);
+	padding:100px 0 0 0;
+}
+.made{
+	padding:10px 0 0 0;
+	color:var(--a);
+	font-size:36px;
+	font-weight:bold;
+}
+.choose{
+	padding:10px 0 0 0;
+	color:var(--a);
+	font-size:19px;
+	font-weight:bold;
+}
+#gallery{
+	background:var(--header);
+	height:auto;
+}
+.day{
+	color:var(--a);
+	font-size:19px;
+}
+.textbg{
+	background:var(--header);
+	border:0px;
+}
+.cardshopbttn{
+	background:var(--navbg);
+	border:0.5px solid var(--a);
+	
+}
+#service{
+	background:var(--navbg);
+	height:auto;
+}
+#service1{
+	background:var(--header);
+	height:auto;
+}
+#blog{
+	background:var(--navbg);
+	height:auto;
+}
+.apriltext{
+	font-size:19px;
+	color:var(--a);
+	padding:0 0 10px 0;
+	font-weight:bold;
+}
+#footer{
+	background:var(--header);
+	height:auto;
+}
+.coma{
+	width:20px;
+	margin:20px 0 0 0;
+}
+.loremipsum{
+	color:var(--a);
+	font-size:17px;
+	line-height:30px;
+	padding:50px 0 20px 0;
+}
+.girlimg{
+	width:100px;
+	padding:30px 0 10px 0;
+}
+#footer1{
+	background:var(--navbg);
+	height:auto;
+}
+.icon{
+	font-size:2rem;
+}
+.fa-twitter-square{
+	padding:0 0 0 2px;
+}
+.fa-linkedin-square{
+	padding:0 0 0 2px;
+}
+.fa-instagram{
+	padding:0 0 0 2px;
+}
+.links{
+	font-weight:bold;
+	font-size:22px;
+}
+.shop{
+	padding:20px 0 0 0;
+	line-height:35px;
+}
+.input1{
+	width:100%;
+	height:45px;
+}
+.email{
+	padding:20px 0 0 0;
+}
+.input2{
+	width:100%;
+	height:45px;
+	margin:10px 0 0 0;
+	background:var(--a);
+	color:var(--navbg);
+}
+#footer2{
+	background:var(--header);
+	height:auto;
+}
+.bee1{
+	width:40px;
+}
+.bee2{
+	text-align:center;
+}

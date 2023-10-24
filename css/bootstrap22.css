@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+}
+:root{
+	--navbg:#ffe7ee;
+	--a:#111111;
+	--stop:#ef5d87;
+	--lorem:#7f7f7f;
+	--btnbllodtext:#fef9ff;
+	--aboutus:#ffffff;
+	--footer1:#111111;
+	--bee2:#0068ae;
+}
+a{
+	padding:0 20px;
+	color:var(--a);
+	font-size:19px;
+	line-height:42px;
+}
+.navbg{
+	background:var(--navbg);
+}
+.imglogo{
+	width:80px;
+	margin:20px 0 20px 0;
+}
+.fa-bars{
+	color:var(--a);
+	font-size:2rem;
+}
+#header{
+	background:var(--navbg);
+	height:auto;
+}
+.theneed{
+	color:var(--a);
+	font-size:50px;
+	font-weight:bold;
+}
+.stop{
+	color:var(--stop);
+	font-size:52px;
+	font-weight:bold;
+}
+.lorem{
+	color:var(--lorem);
+	font-size:20px;
+	padding:10px 0 0 0;
+}
+.btnblood{
+	background:var(--stop);
+	color:var(--btnbllodtext);
+	padding:15px 25px 15px 25px;
+	font-size:18px;
+}
+.bloodimg{
+	width:400px;
+}
+#aboutus{
+	background:var(--aboutus);
+	height:auto;
+}
+.how{
+	color:var(--stop);
+	font-size:20px;
+}
+.donation{
+	color:var(--a);
+	font-size:42px;
+	font-weight:bold;
+	padding:10px 0 20px 0;
+}
+.charityimg{
+	width:40px;
+	float:left;
+}
+.box{
+	background:var(--navbg);
+	border-radius:0px;
+}
+.help{
+	float:left;
+	font-size:18px;
+	padding:0 0 0 10px;
+}
+.ipsum{
+	clear:both;
+	float:left;
+	padding:10px 0 20px 0;
+	font-size:17px;
+	color:var(--lorem);
+	text-align:justify;
+}
+hr.new1 {
+	border-top:3px solid var(--a);
+	width:80px;
+	
+}
+.charityimg1{
+	width:25px;
+	float:left;
+}
+.charityimg2{
+	width:30px;
+	float:left;
+}
+#service{
+	background:var(--aboutus);
+	height:auto;
+}
+.ipsum1{
+	clear:both;
+	float:left;
+	padding:10px 0 0 0;
+	font-size:16px;
+	color:var(--lorem);
+	
+}
+.btnblood1{
+	background:var(--stop);
+	color:var(--btnbllodtext);
+	padding:10px 20px 10px 20px;
+	font-size:18px;
+}
+.btnblood2{
+	background:var(--aboutus);
+	color:var(--stop);
+	padding:10px 20px 10px 20px;
+	font-size:18px;
+	border:1px solid var(--stop);
+}
+#blog{
+	background:var(--navbg);
+	height:auto;
+}
+.how1{
+	color:var(--stop);
+	font-size:18px;
+	padding:40px 0 0 0;
+}
+.need{
+	color:var(--a);
+	font-size:32px;
+	font-weight:bold;
+}
+.box1{
+	background:var(--aboutus);
+	
+}
+.places{
+	color:var(--a);
+	font-size:20px;
+}
+.twentyfive{
+	color:var(--a);
+	font-size:32px;
+	font-weight:bold;
+}
+#gallery{
+	background:var(--aboutus);
+	height:auto;
+}
+#footer{
+	background:var(--navbg);
+	height:auto;
+}
+.lorem1{
+	color:var(--lorem);
+	font-size:18px;
+	padding:10px 0 0 0;
+}
+.btnblood3{
+	background:var(--stop);
+	color:var(--btnbllodtext);
+	padding:15px 20px 15px 20px;
+	font-size:15px;
+}
+.btnblood4{
+	background:var(--aboutus);
+	color:var(--stop);
+	padding:15px 20px 15px 20px;
+	font-size:15px;
+}
+#footer1{
+	background:var(--footer1);
+	height:auto;
+}
+.aboutus{
+	font-size:20px;
+	font-weight:bold;
+	color:var(--aboutus);
+}
+.dolor{
+	font-size:16px;
+	color:var(--aboutus);
+	padding:20px 0 0 0;
+}
+.dolor1{
+	font-size:16px;
+	color:var(--aboutus);
+	padding:20px 0 0 0;
+	line-height:38px;
+}
+.fa-facebook-square{
+	color:var(--aboutus);
+	font-size:2rem;
+}
+.fa-twitter-square{
+	color:var(--aboutus);
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.fa-linkedin-square{
+	color:var(--aboutus);
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.fa-instagram{
+	color:var(--aboutus);
+	font-size:2rem;
+	padding:0 0 0 5px;
+}
+.email{
+	padding:20px 0 5px 0;
+	color:var(--aboutus);
+}
+.input1{
+	width:100%;
+	height:45px;
+}
+.input2{
+	width:100%;
+	height:45px;
+	margin:10px 0 0 0;
+	background:var(--stop);
+	color:var(--btnbllodtext);
+	border:0px;
+}
+#footer2{
+	background:var(--navbg);
+	height:auto;
+}
+.bee1{
+	width:40px;
+}
+.bee2{
+	color:var(--bee2);
+	font-size:17px;
+}

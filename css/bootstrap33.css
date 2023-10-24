@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:green;
+}
+:root{
+	--a:#141313;
+	--navbg:#e7e7f6;
+	--home:#eec53d;
+}
+li a{
+	padding:0 20px;
+	color:var(--a);
+	font-size:18px;
+}
+.navbg{
+	background:var(--navbg);
+	padding:20px;
+}
+a .home{
+	color:var(--home);
+}

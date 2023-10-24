@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rajdhani:wght@500&display=swap');
+*{
+	box-sizing:border-box;
+}
+html{
+	 scroll-behavior: smooth;
+}
+body{
+	background:green;
+	font-family: 'Merriweather', serif;
+	font-family: 'Rajdhani', sans-serif;
+}
+:root{
+	--navbg:#ffffff;
+	--a:#5a5a5a;
+	--world:#ff2500;
+	--april:#ff9178;
+	--invited:#494949;
+	--readmore:#ed1940;
+	--readmore1:#fafae8;
+	--aboutus:#fafafa;
+}
+/* -------This is a navbar start---------- */
+.whitelogo{
+	width:120px;
+}
+
+a{
+	font-size:18px;
+	color:var(--a);
+	padding:0 20px;
+}
+a:hover{
+	text-decoration:none;
+	color:#a92535;
+}
+.navbg{
+	background:var(--navbg);
+}
+.fa-bars{
+	color:black;
+	font-size:2rem;
+}
+/* -------This is a navbar end---------- */
+
+#header{
+	background:var(--navbg);
+	height:auto;
+}
+.world{
+	color:var(--world);
+	font-size:50px;
+}
+.april{
+	color:var(--april);
+	font-size:30px;
+}
+.invited{
+	color:var(--invited);
+	font-size:32px;
+}
+.lorem{
+	font-size:19px;
+	color:var(--a);
+}
+.readmore{
+	background:var(--readmore);
+	padding:10px 50px;
+	border-radius:0px;
+	font-size:19px;
+	color:var(--readmore1);
+}
+#header1{
+	background:var(--readmore);
+	height:auto;
+}
+.april1{
+	color:var(--readmore1);
+	font-size:30px;
+}
+.ampm{
+	color:var(--readmore1);
+	font-size:20px;
+}
+#aboutus{
+	background:var(--aboutus);
+	height:auto;
+}
+.world1{
+	color:var(--world);
+	font-size:40px;
+	font-weight:bold;
+}
+.world2{
+	color:var(--world);
+	font-size:25px;
+}
+#service{
+	background:var(--navbg);
+	height:auto;
+}
+.artist{
+	width:200px;
+}
+.lili{
+	color:var(--world);
+}
+#gallery{
+	background:var(--navbg);
+	height:auto;
+}
+#footer{
+	background:var(--readmore);
+	height:auto;
+}
+.reserve{
+	color:var(--readmore1);
+	font-size:30px;
+}
+.name{
+	color:white;
+}
+.email{
+	background:none;
+	border-radius:0px;
+	border:1px solid white;
+	width:100%;
+	color:white;
+}
+.line{
+	background:white;
+	height:2px;
+}
+.ampm1{
+	color:var(--readmore1);
+	font-size:18px;
+	padding:0 0 0 10px;
+}
+#footer1{
+	background:var(--navbg);
+	height:auto;
+}
+.dolor{
+	padding:10px 0 0 0;
+}
+.links{
+	font-weight:bold;
+	font-size:20px;
+}
+.home{
+	padding:20px 0 0 0;
+	line-height:40px;
+}
+.fa-facebook{
+	font-size:1.5rem;	
+}
+.fa-twitter{
+	font-size:1.5rem;	
+	padding:0 0 0 10px;
+}
+.fa-linkedin{
+	font-size:1.5rem;
+	padding:0 0 0 10px;	
+}
+.fa-instagram{
+	font-size:1.5rem;	
+	padding:0 0 0 10px;
+}
+.socialicon{
+	padding:10px 0 0 0;
+}
+.input{
+	width:100%;
+	height:40px;
+}
+.input1{
+	width:100%;
+	height:40px;
+	margin:10px 0 0 0;
+	background:var(--readmore);
+	color:var(--navbg);
+}
+.bee1{
+	width:40px;
+}
+.aman{
+	padding:0 0 0 10px;
+	font-size:1.1rem;
+}
